@@ -1,56 +1,53 @@
-# 河流、湖泊与地标图层
+# 第三方三维地图与地理参考
 
 核对日期：2026-10-21。
 
-## 本次采用的复用方式
+## 当前采用的地图
 
-采用 Natural Earth 的 **1:1000万物理地理矢量数据**，只提取河流、湖泊要素；沿用现有省级地理底图和本站配色，不引入新的行政边界。这里的“10m”是 1:10 million 的比例尺命名，不是10米空间分辨率。
+直接使用 **OpenFreeMap Bright 现成地图样式**，叠加 **Mapterhorn 真实 DEM 高程**，由 **MapLibre GL JS 5.15.0** 渲染。本站只加入教学行迹、站点、中文标签和地理阅读入口，不再使用程序生成的山地纹理、陆地挤出或自绘地图投影。原来的艺术地形 PNG 与生成脚本已移除。
+
+- [OpenFreeMap 官方接入指南](https://openfreemap.org/quick_start/)：`https://tiles.openfreemap.org/styles/bright`。沿用成套制图，仅把文字优先设为中文名称或当地名称。
+- [Mapterhorn 官方数据访问](https://mapterhorn.com/data-access/)：`https://tiles.mapterhorn.com/tilejson.json`，Terrarium 编码，512像素地形瓦片。[覆盖说明](https://mapterhorn.com/)列出全球30米基础数据；中国大陆使用全球覆盖，不宣称米级精度。
+- [MapLibre 官方三维示例](https://maplibre.org/maplibre-gl-js/docs/examples/3d-terrain/)展示同一 Mapterhorn 高程接入方式。本项目固定使用适合无构建静态页面的5.15.0浏览器包，JS/CSS本地分发，BSD-3-Clause许可见 `dist/vendor/maplibre/LICENSE.txt`。
+- [Mapterhorn 上游来源与许可](https://mapterhorn.com/attribution/)。地图底部自动保留高程来源署名。
+- OpenFreeMap / OpenMapTiles / [OpenStreetMap 版权与 ODbL](https://www.openstreetmap.org/copyright)署名在地图底部保留。
+
+三维地形使用1.5倍高程夸张，便于课堂观察山脊。平面模式关闭地形起伏并恢复俯视；“全览路线”调整视野，不改变选中的诗文；“看此地山川”放大当前教学区域。山地相关篇目使用更近的视角。区域标记不是瀑布或建筑入口的精确定位。
+
+## 选型比较
+
+| 方案 | 本站判断 |
+| --- | --- |
+| OpenFreeMap + Mapterhorn + MapLibre | 已采用。现成浅色底图、真实三维地形，无需账号或 API 密钥，适合当前演示。 |
+| [MapTiler](https://docs.maptiler.com/guides/developer/credentials/api-key/) | 可提供成熟地图与地形，需要有效 API 密钥，并按所选计划核对额度。没有替用户注册或开通付费服务。 |
+| Natural Earth 平面阴影 / 自绘 SVG | 保留其精选河湖数据作教学参考；不再作为三维地图实现。平面阴影本身不能代替真实可倾斜地形。 |
+
+OpenFreeMap 官方说明公共实例免费、无需密钥，但[不提供 SLA 保证](https://openfreemap.org/)。地图、字体、高程瓦片需要外网连接；未验证中国大陆校园网可达性，不能保证课堂网络下的加载速度。故障时显示中文提示，时间轴、诗文、书架和本地影片仍可使用。本站不预下载整套瓦片，也没有增加定位权限。
+
+## 继续保留的河湖与地标
+
+Natural Earth **1:1000万物理矢量数据**（10m 指1:10 million比例尺，不是10米分辨率）：
 
 - [河流及湖泊中心线](https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/)
 - [湖泊与水库](https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-lakes/)
-- [Natural Earth 许可说明](https://www.naturalearthdata.com/about/terms-of-use/)：公版数据，可修改和再分发。本站保留 Made with Natural Earth 署名与链接。
-- [上游数据仓库](https://github.com/nvkelso/natural-earth-vector)：下载对应 GeoJSON，保留下载地址和文件 SHA-256，见 [water-sources.json](../dist/assets/map/water-sources.json)。本仓库不分发整套全球原始数据。
+- [公版许可](https://www.naturalearthdata.com/about/terms-of-use/)
+- [上游仓库](https://github.com/nvkelso/natural-earth-vector)，下载地址与 SHA-256 记录见 `dist/assets/map/water-sources.json`。
 
-选中20个源要素，组合为14个中文命名组：11条河流的选取线段，以及3个湖泊。坐标保留5位小数；画面使用本站现有投影、SVG笔触、青蓝配色、浅色描边和中文标签。数据不是手绘河流轨迹，也没有把河流改画成人生行迹线。
+20个源要素组合为14组：长江、金沙江、黄河、汉江、赣江、岷江、富春江、湘江、淮河、嘉陵江、渭河，以及洞庭湖、鄱阳湖、太湖。概化河湖教学叠层在放大到城市附近后隐藏，近景改用现成底图更细致的水系；图层按钮控制教学叠层，不移除底图原有水域。部分河湖点击可关联诗文。
 
-## 已加入的内容
+10处诗文地标：庐山、泰山、嵩山、天姥山、黄鹤楼、白帝城、岳阳楼、杜甫草堂、西湖、石钟山。位置沿用原有教学区域坐标，不是建筑的精确定位；与当前作者站点同名的区域不重复画点。岳阳楼另附[岳阳市公开资料](https://www.yueyang.gov.cn/yyskl/58123/58124/58129/content_1612371.html)。标签由地图引擎避让。
 
-| 类别 | 内容 |
-| --- | --- |
-| 河流 | 长江、金沙江、黄河、汉江、赣江、岷江、富春江、湘江、淮河、嘉陵江、渭河 |
-| 湖泊 | 洞庭湖、鄱阳湖、太湖 |
-| 诗文地标 | 庐山、泰山、嵩山、天姥山、黄鹤楼、白帝城、岳阳楼、杜甫草堂、西湖、石钟山 |
+## 教学边界
 
-地标位置沿用网站已有教学站点的区域坐标；例如杜甫草堂沿用成都站点，不能把全国尺度的小图标当作建筑入口的精确定位。岳阳楼另附 [岳阳市公开景区资料](https://www.yueyang.gov.cn/yyskl/58123/58124/58129/content_1612371.html)。相同或过近的地标与当前诗人的行迹标记合并展示，避免叠画；标签会尽量避让当前城市和其他标签。
+- 现成底图、高程、河湖与路网反映现代地理，不是唐宋复原。地图上的现代道路不代表诗人的交通路线。
+- 金色连线只串联可定位的精选行迹；诗中地点与待考作品不计入连线。地标与水系不会为诗人增加行程。
+- 《将进酒》的黄河意象不能证明作者站在黄河岸；《梦游天姥吟留别》的梦境也不是亲历证据。
+- 1.5倍高程显示用于观察，不用于测量；区域坐标不能定位庐山瀑布的具体观景点。
 
-## 为什么选这个方案
+## 维护
 
-| 资源 | 本次判断 |
-| --- | --- |
-| Natural Earth 物理矢量 | 已采用：能只复用线形，重新配色；文件小，可以随静态网站分发，适合目前的全国尺度与留白风格。 |
-| OpenStreetMap | 备选：更适合将来需要街区、道路与细致地点的探索。[官方许可](https://www.openstreetmap.org/copyright)要求 ODbL 及署名；公共地图瓦片也有独立使用政策。本次未接入其数据或瓦片。 |
-| 现有 DataV 省级底图 | 保留：本次不改变原有定位与边界来源，也不另外加入路网和行政标签。 |
+- `dist/map.js`：接入第三方地图、高程、镜头、教学叠层和交互。
+- `dist/geography.js`：中文地理说明与作品关联。
+- `scripts/prepare_water_data.py`：按上游标识筛选河湖，不生成地形。
 
-这些是针对本站界面目的的选型判断，不是对所有地图产品的通用排名。地图风格由渲染方式决定，不需要直接复制第三方地图的整套视觉样式。
-
-## 教学与制图边界
-
-- 河道、湖岸均为现代概化参考，不是唐宋水系、岸线或水运网络复原。Natural Earth 的湖泊形状和河流线段也不是完整流域模型。
-- 地标、水系属于地理背景，开关或点击不会为任何诗人增加行迹。金色路线与蓝色水系在图例中分别说明。
-- 点击部分河湖可打开相关作品；这类关联用于主题阅读，不足以确认创作地点或具体行舟路线。其他水系只提供地理说明，不自动拼配诗句。
-- 《将进酒》写黄河，不证明作者当时在河岸；梦游天姥的地点不是李白亲历依据；富春江数据也未被扩写成完整钱塘江流域。
-- 地形明暗仍是程序绘制的艺术示意，不是测绘高程。地标图标为本站绘制，未复制第三方图片。
-
-## 维护与再生成
-
-下载 Natural Earth 上游的 `ne_10m_rivers_lake_centerlines.geojson` 和 `ne_10m_lakes.geojson`，分别保存为 `rivers.geojson`、`lakes.geojson`，然后运行：
-
-```bash
-python3 scripts/prepare_water_data.py /path/to/downloaded/files
-```
-
-脚本按上游河流标识和湖名选择要素，生成 `dist/assets/map/water.json` 与来源元数据。站点只读取本地生成文件，不向第三方地图服务发送访客请求。
-
-- `dist/geography.js`：中文说明、地标与作品关联、图层开关、标签避让和说明弹窗。
-- `dist/map.js`：将地理参考图层置于行迹与城市标记之下。
-- `scripts/prepare_water_data.py`：筛选与来源记录。
+再生成河湖：下载上游 `ne_10m_rivers_lake_centerlines.geojson`、`ne_10m_lakes.geojson`，保存为 `rivers.geojson`、`lakes.geojson`，运行 `python3 scripts/prepare_water_data.py /path/to/files`。地图引擎升级时同步更新 JS/CSS、许可与本文版本号。
