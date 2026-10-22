@@ -1,0 +1,3227 @@
+{
+  "lb-emei": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "emei",
+        "relation": "地域参考",
+        "note": "诗中峨眉山的现代山景；不是青神出发地点或唐代夜景复原。"
+      },
+      {
+        "asset": "moon",
+        "relation": "意象参考",
+        "note": "月面影像作为“峨眉山月”的视觉联想；不是当地夜空实拍。"
+      }
+    ]
+  },
+  "lb-jingmen": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "gorges",
+        "relation": "山水比较",
+        "note": "长江三峡江景，供比较出峡后山势与江面变化；未标为荆门山实景。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "lb-huanghe": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "huanghe",
+        "relation": "地域参考",
+        "note": "黄鹤楼现代重建建筑，作为诗中地标的今日对照；不是唐代原楼。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "借古画中的舟与水面联想送别、望乡；不是黄鹤楼或行船线路的实录。"
+      }
+    ]
+  },
+  "lb-luoyang": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "luoyang",
+        "relation": "地域参考",
+        "note": "洛阳龙门石窟的现代照片，作为洛阳地域参考；不是诗中闻笛的位置。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "lb-shudao": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "jianmen",
+        "relation": "地域参考",
+        "note": "剑门关景区实景，供观察关隘与山势；现存建筑不等于唐代关城。"
+      },
+      {
+        "asset": "travelers",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "lb-xinglu": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "xian",
+        "relation": "地域参考",
+        "note": "西安城门夜景，作为长安地域的今日参考；现存建筑非唐代原物。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "lb-tianmu": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "travelers",
+        "relation": "古画参照",
+        "note": "借北宋山水画联想梦境中的高山；画中不是天姥山，也不表示李白真实登山。"
+      },
+      {
+        "asset": "emei",
+        "relation": "地域参考",
+        "note": "另选峨眉山现代山景比较山势；这不是天姥山照片。"
+      }
+    ]
+  },
+  "lb-jiangjin": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "songshan",
+        "relation": "地域参考",
+        "note": "嵩山太室山现代山景，供观察相关区域；不能据照片确定诗作宴饮地点。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "lb-xuanzhou": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "xuanzhou-painting",
+        "relation": "古画参照",
+        "note": "清代石涛笔下的敬亭山景，与宣州地域对照；不是李白所见谢朓楼的原貌。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "lb-wang": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "qianyang",
+        "relation": "地域参考",
+        "note": "洪江黔阳古城街巷，作为龙标相关地域的今日参考；不表示李白亲赴此地。"
+      },
+      {
+        "asset": "moon",
+        "relation": "意象参考",
+        "note": "月面影像联想“寄愁心与明月”；不代表诗中地点的夜景。"
+      }
+    ]
+  },
+  "lb-lushan": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "lushan",
+        "relation": "地域参考",
+        "note": "景区实景，供观察瀑布与山势；不表示李白当年的精确观景位置。"
+      },
+      {
+        "asset": "travelers",
+        "relation": "古画参照",
+        "note": "比较古画中的高山与飞瀑意境；此画没有被认定为庐山实景。"
+      }
+    ]
+  },
+  "lb-baidi": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "baidi",
+        "relation": "地域参考",
+        "note": "现存景区建筑实景，非唐代场景复原。"
+      },
+      {
+        "asset": "gorges",
+        "relation": "地域参考",
+        "note": "长江三峡的江面与山势，作白帝城附近峡江的区域比较；不是精确航线。"
+      }
+    ]
+  },
+  "lb-songyou": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "gorges",
+        "relation": "意象参考",
+        "note": "长江三峡的现代江景，用于观察水势与两岸空间；不是对本篇河流或行程的认定。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "df-wangyue": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "taishan",
+        "relation": "地域参考",
+        "note": "泰山冬日朝阳的现代照片；与诗中季节、视角可能不同。"
+      },
+      {
+        "asset": "travelers",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "df-chunwang": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "xian",
+        "relation": "地域参考",
+        "note": "西安城门的现代照片，作为长安地域对照；不是安史之乱中的遗址或战争照片。"
+      },
+      {
+        "asset": "early-spring",
+        "relation": "古画参照",
+        "note": "借春山、树木的构图理解“城春草木深”的意象；古画不记录长安战乱。"
+      }
+    ]
+  },
+  "df-shihao": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "travelers",
+        "relation": "古画参照",
+        "note": "山路与行旅人物作叙事空间联想；不是石壕村实景，也不是捉人事件的历史图像。"
+      },
+      {
+        "asset": "gorges",
+        "relation": "意象参考",
+        "note": "长江峡江实拍仅作山河空间联想；不是石壕村，也不是黄河。"
+      }
+    ]
+  },
+  "df-yueye": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "moon",
+        "relation": "意象参考",
+        "note": "月面影像联想“月是故乡明”；不据图片判断秦州或故乡的月色。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "df-shuxiang": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "dufu",
+        "relation": "地域参考",
+        "note": "成都杜甫草堂的纪念性茅屋景观，属于人物与地域参考；不是诗中武侯祠。"
+      },
+      {
+        "asset": "travelers",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "df-kezhi": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "dufu",
+        "relation": "地域参考",
+        "note": "景区纪念性复建茅屋，并非杜甫当年的原屋。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "借山居与树木构图联想居住环境；并非杜甫草堂的古代图像。"
+      }
+    ]
+  },
+  "df-maowu": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "dufu",
+        "relation": "地域参考",
+        "note": "景区纪念性复建茅屋，并非杜甫当年的原屋。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "借山居与树木构图联想居住环境；并非杜甫草堂的古代图像。"
+      }
+    ]
+  },
+  "df-qiuxing": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "baidi",
+        "relation": "地域参考",
+        "note": "白帝城现代景区，作夔州地域参考；并不确定诗人登临或写作的位置。"
+      },
+      {
+        "asset": "gorges",
+        "relation": "地域参考",
+        "note": "三峡江景用于比较夔州的峡江空间；不是精确诗作现场。"
+      }
+    ]
+  },
+  "df-yonghuai": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "gorges",
+        "relation": "山水比较",
+        "note": "长江峡江景观，供联想“三峡”地域；不标为昭君村照片。"
+      },
+      {
+        "asset": "travelers",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "df-denggao": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "baidi",
+        "relation": "地域参考",
+        "note": "白帝城现代景区，作夔州地域参考；并不确定诗人登临或写作的位置。"
+      },
+      {
+        "asset": "gorges",
+        "relation": "地域参考",
+        "note": "三峡江景用于比较夔州的峡江空间；不是精确诗作现场。"
+      }
+    ]
+  },
+  "df-yueyang": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "yueyang-painting",
+        "relation": "古画参照",
+        "note": "安正文所绘岳阳楼，为同一地标的后世古画；不能当作唐、宋时期原貌。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "山水画用于比较登临、远景和水面留白；此画描绘富春山水，不是洞庭湖。"
+      }
+    ]
+  },
+  "df-jiangnan": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "westlake-painting",
+        "relation": "古画参照",
+        "note": "南宋西湖古画中的江南水岸作为意境参考；不是潭州，也不是杜甫与李龟年相逢现场。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "ss-xihu": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "xihu",
+        "relation": "地域参考",
+        "note": "杭州西湖的现代实景，作为杭州地域参考；不同于诗人当时的湖岸或具体观景点。"
+      },
+      {
+        "asset": "westlake-painting",
+        "relation": "古画参照",
+        "note": "李嵩描绘的南宋西湖，用于比较古今湖景；与诗作可能相隔数百年。"
+      }
+    ]
+  },
+  "ss-meng": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "zhucheng",
+        "relation": "地域参考",
+        "note": "今诸城井邱村的银杏古树照片，作为密州相关地域的今日参考；不是苏轼旧居、猎场或作词地点。"
+      },
+      {
+        "asset": "moon",
+        "relation": "意象参考",
+        "note": "月面影像用于思念、团圆与夜色联想；不是密州夜空实拍。"
+      }
+    ]
+  },
+  "ss-lie": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "zhucheng",
+        "relation": "地域参考",
+        "note": "今诸城井邱村的银杏古树照片，作为密州相关地域的今日参考；不是苏轼旧居、猎场或作词地点。"
+      },
+      {
+        "asset": "travelers",
+        "relation": "古画参照",
+        "note": "行旅山水作人物与空间的联想；不是密州出猎实录。"
+      }
+    ]
+  },
+  "ss-shuidiao": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "zhucheng",
+        "relation": "地域参考",
+        "note": "今诸城井邱村的银杏古树照片，作为密州相关地域的今日参考；不是苏轼旧居、猎场或作词地点。"
+      },
+      {
+        "asset": "moon",
+        "relation": "意象参考",
+        "note": "月面影像用于思念、团圆与夜色联想；不是密州夜空实拍。"
+      }
+    ]
+  },
+  "ss-busuan": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "huangzhou",
+        "relation": "地域参考",
+        "note": "黄冈东坡赤壁的现代建筑群，作为黄州地域参考；不是承天寺、定慧院，也不等于赤壁之战古战场。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "借古画的山林或江面留白作文本联想；不是本篇发生地或事件复原。"
+      }
+    ]
+  },
+  "ss-ding": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "huangzhou",
+        "relation": "地域参考",
+        "note": "黄冈东坡赤壁的现代建筑群，作为黄州地域参考；不是承天寺、定慧院，也不等于赤壁之战古战场。"
+      },
+      {
+        "asset": "early-spring",
+        "relation": "古画参照",
+        "note": "借古画的山林或江面留白作文本联想；不是本篇发生地或事件复原。"
+      }
+    ]
+  },
+  "ss-huanxi": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "early-spring",
+        "relation": "古画参照",
+        "note": "宋画山林与溪流作为清泉寺意境参照；不是蕲水清泉寺实景。"
+      },
+      {
+        "asset": "gorges",
+        "relation": "山水比较",
+        "note": "峡江实拍用于观察水流与空间；不是诗中兰溪，也不证明溪水流向。"
+      }
+    ]
+  },
+  "ss-nian": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "huangzhou",
+        "relation": "地域参考",
+        "note": "黄冈东坡赤壁的现代建筑群，作为黄州地域参考；不是承天寺、定慧院，也不等于赤壁之战古战场。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "借古画的山林或江面留白作文本联想；不是本篇发生地或事件复原。"
+      }
+    ]
+  },
+  "ss-chibi": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "huangzhou",
+        "relation": "地域参考",
+        "note": "黄冈东坡赤壁的现代建筑群，作为黄州地域参考；不是承天寺、定慧院，也不等于赤壁之战古战场。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "借古画的山林或江面留白作文本联想；不是本篇发生地或事件复原。"
+      }
+    ]
+  },
+  "ss-chengtian": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "huangzhou",
+        "relation": "地域参考",
+        "note": "黄冈东坡赤壁的现代建筑群，作为黄州地域参考；不是承天寺、定慧院，也不等于赤壁之战古战场。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "借古画的山林或江面留白作文本联想；不是本篇发生地或事件复原。"
+      }
+    ]
+  },
+  "ss-xilin": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "lushan",
+        "relation": "地域参考",
+        "note": "庐山秀峰瀑布作同一山域的今日参考；并非西林寺或“横看成岭”的精确视角。"
+      },
+      {
+        "asset": "travelers",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "ss-shizhong": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "gorges",
+        "relation": "山水比较",
+        "note": "长江峡江的现代照片用于观察水与山石；不是湖口石钟山。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "山水古画作观察、行舟与山石构图参照；不记录石钟山的声学现象。"
+      }
+    ]
+  },
+  "catalog-j01": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "gorges",
+        "relation": "意象参考",
+        "note": "长江三峡的现代江景，用于观察水势与两岸空间；不是对本篇河流或行程的认定。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-j02": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "gorges",
+        "relation": "意象参考",
+        "note": "长江三峡的现代江景，用于观察水势与两岸空间；不是对本篇河流或行程的认定。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-j03": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "early-spring",
+        "relation": "古画参照",
+        "note": "以宋画的远近层次与山林人物作为阅读联想；并非本篇写作地点或事件的证据。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "以山水画的疏密、留白作视觉参照；不据画认定作者到过富春江。"
+      }
+    ]
+  },
+  "catalog-j04": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "moon",
+        "relation": "意象参考",
+        "note": "伽利略号月面影像为多滤镜合成增强色资料，用于月亮意象联想；并非诗人所在地拍摄的月夜。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "以江面留白与孤舟联想夜色、漂泊或静寂；不代表本篇的具体江河。"
+      }
+    ]
+  },
+  "catalog-j05": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "chrysanthemum",
+        "relation": "意象参考",
+        "note": "菊花实拍，用于观察花形与色彩；未将拍摄地当作诗作所在地。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-j06": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "gorges",
+        "relation": "意象参考",
+        "note": "长江三峡的现代江景，用于观察水势与两岸空间；不是对本篇河流或行程的认定。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-j07": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "xian",
+        "relation": "意象参考",
+        "note": "西安城门夜景用于城阙、古城意象比较；不据此认定诗中的城门。"
+      },
+      {
+        "asset": "travelers",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-j08": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "xian",
+        "relation": "意象参考",
+        "note": "西安城门夜景用于城阙、古城意象比较；不据此认定诗中的城门。"
+      },
+      {
+        "asset": "travelers",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-j09": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "gorges",
+        "relation": "意象参考",
+        "note": "长江三峡的现代江景，用于观察水势与两岸空间；不是对本篇河流或行程的认定。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-j10": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "desert",
+        "relation": "意象参考",
+        "note": "敦煌鸣沙山的现代沙丘景观，用于联想边塞环境；不表示诗中战场、关隘或作者行程。"
+      },
+      {
+        "asset": "travelers",
+        "relation": "古画参照",
+        "note": "以山川与行旅人物对照边塞诗的空间尺度；画中没有被指认为本诗的战场。"
+      }
+    ]
+  },
+  "catalog-j13": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "huanghe",
+        "relation": "地域参考",
+        "note": "黄鹤楼现代重建建筑，作为诗中地标的今日对照；不是唐代原楼。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "借古画中的舟与水面联想送别、望乡；不是黄鹤楼或行船线路的实录。"
+      }
+    ]
+  },
+  "catalog-j17": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "desert",
+        "relation": "意象参考",
+        "note": "敦煌鸣沙山的现代沙丘景观，用于联想边塞环境；不表示诗中战场、关隘或作者行程。"
+      },
+      {
+        "asset": "travelers",
+        "relation": "古画参照",
+        "note": "以山川与行旅人物对照边塞诗的空间尺度；画中没有被指认为本诗的战场。"
+      }
+    ]
+  },
+  "catalog-j18": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "gorges",
+        "relation": "意象参考",
+        "note": "长江三峡的现代江景，用于观察水势与两岸空间；不是对本篇河流或行程的认定。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-j19": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "snow",
+        "relation": "意象参考",
+        "note": "杭州西湖冬日远眺，用于比较寒意、远景和留白；不作为本诗地点的照片。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-j20": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "xihu",
+        "relation": "地域参考",
+        "note": "杭州西湖的现代实景，作为杭州地域参考；不同于诗人当时的湖岸或具体观景点。"
+      },
+      {
+        "asset": "westlake-painting",
+        "relation": "古画参照",
+        "note": "李嵩描绘的南宋西湖，用于比较古今湖景；与诗作可能相隔数百年。"
+      }
+    ]
+  },
+  "catalog-j21": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "desert",
+        "relation": "意象参考",
+        "note": "敦煌鸣沙山的现代沙丘景观，用于联想边塞环境；不表示诗中战场、关隘或作者行程。"
+      },
+      {
+        "asset": "travelers",
+        "relation": "古画参照",
+        "note": "以山川与行旅人物对照边塞诗的空间尺度；画中没有被指认为本诗的战场。"
+      }
+    ]
+  },
+  "catalog-j22": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "early-spring",
+        "relation": "古画参照",
+        "note": "以宋画的远近层次与山林人物作为阅读联想；并非本篇写作地点或事件的证据。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "以山水画的疏密、留白作视觉参照；不据画认定作者到过富春江。"
+      }
+    ]
+  },
+  "catalog-j23": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "moon",
+        "relation": "意象参考",
+        "note": "伽利略号月面影像为多滤镜合成增强色资料，用于月亮意象联想；并非诗人所在地拍摄的月夜。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "以江面留白与孤舟联想夜色、漂泊或静寂；不代表本篇的具体江河。"
+      }
+    ]
+  },
+  "catalog-j24": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "songshan",
+        "relation": "意象参考",
+        "note": "嵩山太室山的现代山景，用于观察山势；不能据配图认定诗中的山。"
+      },
+      {
+        "asset": "travelers",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-j25": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "moon",
+        "relation": "意象参考",
+        "note": "伽利略号月面影像为多滤镜合成增强色资料，用于月亮意象联想；并非诗人所在地拍摄的月夜。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "以江面留白与孤舟联想夜色、漂泊或静寂；不代表本篇的具体江河。"
+      }
+    ]
+  },
+  "catalog-j26": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "moon",
+        "relation": "意象参考",
+        "note": "伽利略号月面影像为多滤镜合成增强色资料，用于月亮意象联想；并非诗人所在地拍摄的月夜。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "以江面留白与孤舟联想夜色、漂泊或静寂；不代表本篇的具体江河。"
+      }
+    ]
+  },
+  "catalog-j27": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "desert",
+        "relation": "意象参考",
+        "note": "敦煌鸣沙山的现代沙丘景观，用于联想边塞环境；不表示诗中战场、关隘或作者行程。"
+      },
+      {
+        "asset": "travelers",
+        "relation": "古画参照",
+        "note": "以山川与行旅人物对照边塞诗的空间尺度；画中没有被指认为本诗的战场。"
+      }
+    ]
+  },
+  "catalog-j28": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "xian",
+        "relation": "意象参考",
+        "note": "西安城门夜景，供比较城楼、空间与灯火；现存建筑不是唐代宫城，也不表示本篇写于西安。"
+      },
+      {
+        "asset": "early-spring",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-j29": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "xihu",
+        "relation": "地域参考",
+        "note": "杭州西湖的现代实景，作为杭州地域参考；不同于诗人当时的湖岸或具体观景点。"
+      },
+      {
+        "asset": "westlake-painting",
+        "relation": "古画参照",
+        "note": "李嵩描绘的南宋西湖，用于比较古今湖景；与诗作可能相隔数百年。"
+      }
+    ]
+  },
+  "catalog-j32": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "gorges",
+        "relation": "意象参考",
+        "note": "长江三峡的现代江景，用于观察水势与两岸空间；不是对本篇河流或行程的认定。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-j33": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "moon",
+        "relation": "意象参考",
+        "note": "伽利略号月面影像为多滤镜合成增强色资料，用于月亮意象联想；并非诗人所在地拍摄的月夜。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "以江面留白与孤舟联想夜色、漂泊或静寂；不代表本篇的具体江河。"
+      }
+    ]
+  },
+  "catalog-j34": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "gorges",
+        "relation": "意象参考",
+        "note": "长江三峡的现代江景，用于观察水势与两岸空间；不是对本篇河流或行程的认定。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-j35": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "desert",
+        "relation": "意象参考",
+        "note": "敦煌鸣沙山的现代沙丘景观，用于联想边塞环境；不表示诗中战场、关隘或作者行程。"
+      },
+      {
+        "asset": "travelers",
+        "relation": "古画参照",
+        "note": "以山川与行旅人物对照边塞诗的空间尺度；画中没有被指认为本诗的战场。"
+      }
+    ]
+  },
+  "catalog-j36": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "gorges",
+        "relation": "意象参考",
+        "note": "长江三峡的现代江景，用于观察水势与两岸空间；不是对本篇河流或行程的认定。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-j37": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "gorges",
+        "relation": "意象参考",
+        "note": "长江三峡的现代江景，用于观察水势与两岸空间；不是对本篇河流或行程的认定。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-j38": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "xian",
+        "relation": "意象参考",
+        "note": "西安城门夜景用于城阙、古城意象比较；不据此认定诗中的城门。"
+      },
+      {
+        "asset": "travelers",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-j39": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "early-spring",
+        "relation": "古画参照",
+        "note": "以宋画的远近层次与山林人物作为阅读联想；并非本篇写作地点或事件的证据。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "以山水画的疏密、留白作视觉参照；不据画认定作者到过富春江。"
+      }
+    ]
+  },
+  "catalog-j40": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "chrysanthemum",
+        "relation": "意象参考",
+        "note": "菊花实拍，用于观察花形与色彩；未将拍摄地当作诗作所在地。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-j41": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "gorges",
+        "relation": "意象参考",
+        "note": "长江三峡的现代江景，用于观察水势与两岸空间；不是对本篇河流或行程的认定。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-j42": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "early-spring",
+        "relation": "古画参照",
+        "note": "以宋画的远近层次与山林人物作为阅读联想；并非本篇写作地点或事件的证据。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "以山水画的疏密、留白作视觉参照；不据画认定作者到过富春江。"
+      }
+    ]
+  },
+  "catalog-j43": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "songshan",
+        "relation": "意象参考",
+        "note": "嵩山太室山的现代山景，用于观察山势；不能据配图认定诗中的山。"
+      },
+      {
+        "asset": "travelers",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-j44": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "moon",
+        "relation": "意象参考",
+        "note": "伽利略号月面影像为多滤镜合成增强色资料，用于月亮意象联想；并非诗人所在地拍摄的月夜。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "以江面留白与孤舟联想夜色、漂泊或静寂；不代表本篇的具体江河。"
+      }
+    ]
+  },
+  "catalog-j45": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "early-spring",
+        "relation": "古画参照",
+        "note": "以宋画的远近层次与山林人物作为阅读联想；并非本篇写作地点或事件的证据。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "以山水画的疏密、留白作视觉参照；不据画认定作者到过富春江。"
+      }
+    ]
+  },
+  "catalog-j46": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "gorges",
+        "relation": "意象参考",
+        "note": "长江三峡的现代江景，用于观察水势与两岸空间；不是对本篇河流或行程的认定。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-j47": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "moon",
+        "relation": "意象参考",
+        "note": "伽利略号月面影像为多滤镜合成增强色资料，用于月亮意象联想；并非诗人所在地拍摄的月夜。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "以江面留白与孤舟联想夜色、漂泊或静寂；不代表本篇的具体江河。"
+      }
+    ]
+  },
+  "catalog-j48": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "desert",
+        "relation": "意象参考",
+        "note": "敦煌鸣沙山的现代沙丘景观，用于联想边塞环境；不表示诗中战场、关隘或作者行程。"
+      },
+      {
+        "asset": "travelers",
+        "relation": "古画参照",
+        "note": "以山川与行旅人物对照边塞诗的空间尺度；画中没有被指认为本诗的战场。"
+      }
+    ]
+  },
+  "catalog-j49": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "gorges",
+        "relation": "意象参考",
+        "note": "长江三峡的现代江景，用于观察水势与两岸空间；不是对本篇河流或行程的认定。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-j50": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "songshan",
+        "relation": "意象参考",
+        "note": "嵩山太室山的现代山景，用于观察山势；不能据配图认定诗中的山。"
+      },
+      {
+        "asset": "travelers",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-j51": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "moon",
+        "relation": "意象参考",
+        "note": "伽利略号月面影像为多滤镜合成增强色资料，用于月亮意象联想；并非诗人所在地拍摄的月夜。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "以江面留白与孤舟联想夜色、漂泊或静寂；不代表本篇的具体江河。"
+      }
+    ]
+  },
+  "catalog-j52": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "early-spring",
+        "relation": "古画参照",
+        "note": "以宋画的远近层次与山林人物作为阅读联想；并非本篇写作地点或事件的证据。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "以山水画的疏密、留白作视觉参照；不据画认定作者到过富春江。"
+      }
+    ]
+  },
+  "catalog-j53": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "gorges",
+        "relation": "意象参考",
+        "note": "长江三峡的现代江景，用于观察水势与两岸空间；不是对本篇河流或行程的认定。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-j54": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "gorges",
+        "relation": "意象参考",
+        "note": "长江三峡的现代江景，用于观察水势与两岸空间；不是对本篇河流或行程的认定。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-j55": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "yueyang-painting",
+        "relation": "古画参照",
+        "note": "安正文所绘岳阳楼，为同一地标的后世古画；不能当作唐、宋时期原貌。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "山水画用于比较登临、远景和水面留白；此画描绘富春山水，不是洞庭湖。"
+      }
+    ]
+  },
+  "catalog-j56": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "gorges",
+        "relation": "意象参考",
+        "note": "长江三峡的现代江景，用于观察水势与两岸空间；不是对本篇河流或行程的认定。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-j57": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "lotus",
+        "relation": "意象参考",
+        "note": "阿德莱德植物园的荷花近观，用于辨认荷花意象；并非诗作所在地。"
+      },
+      {
+        "asset": "lotus-painting",
+        "relation": "古画参照",
+        "note": "石涛画中的荷花、芙蓉与山石，可比较植物意象；不代表本篇写作现场。"
+      }
+    ]
+  },
+  "catalog-j59": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "snow",
+        "relation": "意象参考",
+        "note": "杭州西湖冬日远眺，用于比较寒意、远景和留白；不作为本诗地点的照片。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-j60": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "moon",
+        "relation": "意象参考",
+        "note": "伽利略号月面影像为多滤镜合成增强色资料，用于月亮意象联想；并非诗人所在地拍摄的月夜。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "以江面留白与孤舟联想夜色、漂泊或静寂；不代表本篇的具体江河。"
+      }
+    ]
+  },
+  "catalog-h01": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "songshan",
+        "relation": "意象参考",
+        "note": "嵩山太室山的现代山景，用于观察山势；不能据配图认定诗中的山。"
+      },
+      {
+        "asset": "travelers",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-h02": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "gorges",
+        "relation": "意象参考",
+        "note": "长江三峡的现代江景，用于观察水势与两岸空间；不是对本篇河流或行程的认定。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-h03": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "moon",
+        "relation": "意象参考",
+        "note": "伽利略号月面影像为多滤镜合成增强色资料，用于月亮意象联想；并非诗人所在地拍摄的月夜。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "以江面留白与孤舟联想夜色、漂泊或静寂；不代表本篇的具体江河。"
+      }
+    ]
+  },
+  "catalog-h04": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "desert",
+        "relation": "意象参考",
+        "note": "敦煌鸣沙山的现代沙丘景观，用于联想边塞环境；不表示诗中战场、关隘或作者行程。"
+      },
+      {
+        "asset": "travelers",
+        "relation": "古画参照",
+        "note": "以山川与行旅人物对照边塞诗的空间尺度；画中没有被指认为本诗的战场。"
+      }
+    ]
+  },
+  "catalog-h05": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "early-spring",
+        "relation": "古画参照",
+        "note": "以宋画的远近层次与山林人物作为阅读联想；并非本篇写作地点或事件的证据。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "以山水画的疏密、留白作视觉参照；不据画认定作者到过富春江。"
+      }
+    ]
+  },
+  "catalog-h06": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "desert",
+        "relation": "意象参考",
+        "note": "敦煌鸣沙山的现代沙丘景观，用于联想边塞环境；不表示诗中战场、关隘或作者行程。"
+      },
+      {
+        "asset": "travelers",
+        "relation": "古画参照",
+        "note": "以山川与行旅人物对照边塞诗的空间尺度；画中没有被指认为本诗的战场。"
+      }
+    ]
+  },
+  "catalog-h07": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "moon",
+        "relation": "意象参考",
+        "note": "伽利略号月面影像为多滤镜合成增强色资料，用于月亮意象联想；并非诗人所在地拍摄的月夜。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "以江面留白与孤舟联想夜色、漂泊或静寂；不代表本篇的具体江河。"
+      }
+    ]
+  },
+  "catalog-h08": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "early-spring",
+        "relation": "古画参照",
+        "note": "以宋画的远近层次与山林人物作为阅读联想；并非本篇写作地点或事件的证据。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "以山水画的疏密、留白作视觉参照；不据画认定作者到过富春江。"
+      }
+    ]
+  },
+  "catalog-h10": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "moon",
+        "relation": "意象参考",
+        "note": "伽利略号月面影像为多滤镜合成增强色资料，用于月亮意象联想；并非诗人所在地拍摄的月夜。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "以江面留白与孤舟联想夜色、漂泊或静寂；不代表本篇的具体江河。"
+      }
+    ]
+  },
+  "catalog-h11": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "early-spring",
+        "relation": "古画参照",
+        "note": "以宋画的远近层次与山林人物作为阅读联想；并非本篇写作地点或事件的证据。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "以山水画的疏密、留白作视觉参照；不据画认定作者到过富春江。"
+      }
+    ]
+  },
+  "catalog-h12": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "early-spring",
+        "relation": "古画参照",
+        "note": "以宋画的远近层次与山林人物作为阅读联想；并非本篇写作地点或事件的证据。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "以山水画的疏密、留白作视觉参照；不据画认定作者到过富春江。"
+      }
+    ]
+  },
+  "catalog-h13": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "desert",
+        "relation": "意象参考",
+        "note": "敦煌鸣沙山的现代沙丘景观，用于联想边塞环境；不表示诗中战场、关隘或作者行程。"
+      },
+      {
+        "asset": "travelers",
+        "relation": "古画参照",
+        "note": "以山川与行旅人物对照边塞诗的空间尺度；画中没有被指认为本诗的战场。"
+      }
+    ]
+  },
+  "catalog-h14": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "songshan",
+        "relation": "意象参考",
+        "note": "嵩山太室山的现代山景，用于观察山势；不能据配图认定诗中的山。"
+      },
+      {
+        "asset": "travelers",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-h15": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "moon",
+        "relation": "意象参考",
+        "note": "伽利略号月面影像为多滤镜合成增强色资料，用于月亮意象联想；并非诗人所在地拍摄的月夜。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "以江面留白与孤舟联想夜色、漂泊或静寂；不代表本篇的具体江河。"
+      }
+    ]
+  },
+  "catalog-h16": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "chrysanthemum",
+        "relation": "意象参考",
+        "note": "菊花实拍，用于观察花形与色彩；未将拍摄地当作诗作所在地。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-h17": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "early-spring",
+        "relation": "古画参照",
+        "note": "以宋画的远近层次与山林人物作为阅读联想；并非本篇写作地点或事件的证据。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "以山水画的疏密、留白作视觉参照；不据画认定作者到过富春江。"
+      }
+    ]
+  },
+  "catalog-h18": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "early-spring",
+        "relation": "古画参照",
+        "note": "以宋画的远近层次与山林人物作为阅读联想；并非本篇写作地点或事件的证据。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "以山水画的疏密、留白作视觉参照；不据画认定作者到过富春江。"
+      }
+    ]
+  },
+  "catalog-h20": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "moon",
+        "relation": "意象参考",
+        "note": "伽利略号月面影像为多滤镜合成增强色资料，用于月亮意象联想；并非诗人所在地拍摄的月夜。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "以江面留白与孤舟联想夜色、漂泊或静寂；不代表本篇的具体江河。"
+      }
+    ]
+  },
+  "catalog-h21": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "snow",
+        "relation": "意象参考",
+        "note": "杭州西湖冬日远眺，用于比较寒意、远景和留白；不作为本诗地点的照片。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-h22": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "early-spring",
+        "relation": "古画参照",
+        "note": "以宋画的远近层次与山林人物作为阅读联想；并非本篇写作地点或事件的证据。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "以山水画的疏密、留白作视觉参照；不据画认定作者到过富春江。"
+      }
+    ]
+  },
+  "catalog-h23": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "early-spring",
+        "relation": "古画参照",
+        "note": "以宋画的远近层次与山林人物作为阅读联想；并非本篇写作地点或事件的证据。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "以山水画的疏密、留白作视觉参照；不据画认定作者到过富春江。"
+      }
+    ]
+  },
+  "catalog-h24": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "early-spring",
+        "relation": "古画参照",
+        "note": "以宋画的远近层次与山林人物作为阅读联想；并非本篇写作地点或事件的证据。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "以山水画的疏密、留白作视觉参照；不据画认定作者到过富春江。"
+      }
+    ]
+  },
+  "catalog-h25": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "desert",
+        "relation": "意象参考",
+        "note": "敦煌鸣沙山的现代沙丘景观，用于联想边塞环境；不表示诗中战场、关隘或作者行程。"
+      },
+      {
+        "asset": "travelers",
+        "relation": "古画参照",
+        "note": "以山川与行旅人物对照边塞诗的空间尺度；画中没有被指认为本诗的战场。"
+      }
+    ]
+  },
+  "catalog-h26": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "snow",
+        "relation": "意象参考",
+        "note": "杭州西湖冬日远眺，用于比较寒意、远景和留白；不作为本诗地点的照片。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-h27": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "moon",
+        "relation": "意象参考",
+        "note": "伽利略号月面影像为多滤镜合成增强色资料，用于月亮意象联想；并非诗人所在地拍摄的月夜。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "以江面留白与孤舟联想夜色、漂泊或静寂；不代表本篇的具体江河。"
+      }
+    ]
+  },
+  "catalog-h28": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "gorges",
+        "relation": "意象参考",
+        "note": "长江三峡的现代江景，用于观察水势与两岸空间；不是对本篇河流或行程的认定。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-h29": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "moon",
+        "relation": "意象参考",
+        "note": "伽利略号月面影像为多滤镜合成增强色资料，用于月亮意象联想；并非诗人所在地拍摄的月夜。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "以江面留白与孤舟联想夜色、漂泊或静寂；不代表本篇的具体江河。"
+      }
+    ]
+  },
+  "catalog-h30": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "moon",
+        "relation": "意象参考",
+        "note": "伽利略号月面影像为多滤镜合成增强色资料，用于月亮意象联想；并非诗人所在地拍摄的月夜。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "以江面留白与孤舟联想夜色、漂泊或静寂；不代表本篇的具体江河。"
+      }
+    ]
+  },
+  "catalog-h31": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "gorges",
+        "relation": "意象参考",
+        "note": "长江三峡的现代江景，用于观察水势与两岸空间；不是对本篇河流或行程的认定。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-h32": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "desert",
+        "relation": "意象参考",
+        "note": "敦煌鸣沙山的现代沙丘景观，用于联想边塞环境；不表示诗中战场、关隘或作者行程。"
+      },
+      {
+        "asset": "travelers",
+        "relation": "古画参照",
+        "note": "以山川与行旅人物对照边塞诗的空间尺度；画中没有被指认为本诗的战场。"
+      }
+    ]
+  },
+  "catalog-h33": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "xian",
+        "relation": "意象参考",
+        "note": "西安城门夜景，供比较城楼、空间与灯火；现存建筑不是唐代宫城，也不表示本篇写于西安。"
+      },
+      {
+        "asset": "early-spring",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-h34": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "early-spring",
+        "relation": "古画参照",
+        "note": "以宋画的远近层次与山林人物作为阅读联想；并非本篇写作地点或事件的证据。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "以山水画的疏密、留白作视觉参照；不据画认定作者到过富春江。"
+      }
+    ]
+  },
+  "catalog-h35": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "moon",
+        "relation": "意象参考",
+        "note": "伽利略号月面影像为多滤镜合成增强色资料，用于月亮意象联想；并非诗人所在地拍摄的月夜。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "以江面留白与孤舟联想夜色、漂泊或静寂；不代表本篇的具体江河。"
+      }
+    ]
+  },
+  "catalog-h36": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "lotus",
+        "relation": "意象参考",
+        "note": "阿德莱德植物园的荷花近观，用于辨认荷花意象；并非诗作所在地。"
+      },
+      {
+        "asset": "lotus-painting",
+        "relation": "古画参照",
+        "note": "石涛画中的荷花、芙蓉与山石，可比较植物意象；不代表本篇写作现场。"
+      }
+    ]
+  },
+  "catalog-h37": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "moon",
+        "relation": "意象参考",
+        "note": "伽利略号月面影像为多滤镜合成增强色资料，用于月亮意象联想；并非诗人所在地拍摄的月夜。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "以江面留白与孤舟联想夜色、漂泊或静寂；不代表本篇的具体江河。"
+      }
+    ]
+  },
+  "catalog-h38": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "songshan",
+        "relation": "意象参考",
+        "note": "嵩山太室山的现代山景，用于观察山势；不能据配图认定诗中的山。"
+      },
+      {
+        "asset": "travelers",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-h39": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "gorges",
+        "relation": "意象参考",
+        "note": "长江三峡的现代江景，用于观察水势与两岸空间；不是对本篇河流或行程的认定。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-h40": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "moon",
+        "relation": "意象参考",
+        "note": "伽利略号月面影像为多滤镜合成增强色资料，用于月亮意象联想；并非诗人所在地拍摄的月夜。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "以江面留白与孤舟联想夜色、漂泊或静寂；不代表本篇的具体江河。"
+      }
+    ]
+  },
+  "catalog-h41": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "lotus",
+        "relation": "意象参考",
+        "note": "阿德莱德植物园的荷花近观，用于辨认荷花意象；并非诗作所在地。"
+      },
+      {
+        "asset": "lotus-painting",
+        "relation": "古画参照",
+        "note": "石涛画中的荷花、芙蓉与山石，可比较植物意象；不代表本篇写作现场。"
+      }
+    ]
+  },
+  "catalog-h45": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "desert",
+        "relation": "意象参考",
+        "note": "敦煌鸣沙山的现代沙丘景观，用于联想边塞环境；不表示诗中战场、关隘或作者行程。"
+      },
+      {
+        "asset": "travelers",
+        "relation": "古画参照",
+        "note": "以山川与行旅人物对照边塞诗的空间尺度；画中没有被指认为本诗的战场。"
+      }
+    ]
+  },
+  "catalog-h50": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "moon",
+        "relation": "意象参考",
+        "note": "伽利略号月面影像为多滤镜合成增强色资料，用于月亮意象联想；并非诗人所在地拍摄的月夜。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "以江面留白与孤舟联想夜色、漂泊或静寂；不代表本篇的具体江河。"
+      }
+    ]
+  },
+  "catalog-h51": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "lotus",
+        "relation": "意象参考",
+        "note": "阿德莱德植物园的荷花近观，用于辨认荷花意象；并非诗作所在地。"
+      },
+      {
+        "asset": "lotus-painting",
+        "relation": "古画参照",
+        "note": "石涛画中的荷花、芙蓉与山石，可比较植物意象；不代表本篇写作现场。"
+      }
+    ]
+  },
+  "catalog-h52": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "snow",
+        "relation": "意象参考",
+        "note": "杭州西湖冬日远眺，用于比较寒意、远景和留白；不作为本诗地点的照片。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-h53": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "moon",
+        "relation": "意象参考",
+        "note": "伽利略号月面影像为多滤镜合成增强色资料，用于月亮意象联想；并非诗人所在地拍摄的月夜。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "以江面留白与孤舟联想夜色、漂泊或静寂；不代表本篇的具体江河。"
+      }
+    ]
+  },
+  "catalog-h54": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "moon",
+        "relation": "意象参考",
+        "note": "伽利略号月面影像为多滤镜合成增强色资料，用于月亮意象联想；并非诗人所在地拍摄的月夜。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "以江面留白与孤舟联想夜色、漂泊或静寂；不代表本篇的具体江河。"
+      }
+    ]
+  },
+  "catalog-h55": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "xihu",
+        "relation": "地域参考",
+        "note": "杭州西湖的现代实景，作为杭州地域参考；不同于诗人当时的湖岸或具体观景点。"
+      },
+      {
+        "asset": "westlake-painting",
+        "relation": "古画参照",
+        "note": "李嵩描绘的南宋西湖，用于比较古今湖景；与诗作可能相隔数百年。"
+      }
+    ]
+  },
+  "catalog-h56": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "gorges",
+        "relation": "意象参考",
+        "note": "长江三峡的现代江景，用于观察水势与两岸空间；不是对本篇河流或行程的认定。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-h59": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "moon",
+        "relation": "意象参考",
+        "note": "伽利略号月面影像为多滤镜合成增强色资料，用于月亮意象联想；并非诗人所在地拍摄的月夜。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "以江面留白与孤舟联想夜色、漂泊或静寂；不代表本篇的具体江河。"
+      }
+    ]
+  },
+  "catalog-h60": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "gorges",
+        "relation": "意象参考",
+        "note": "长江三峡的现代江景，用于观察水势与两岸空间；不是对本篇河流或行程的认定。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-h61": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "lotus",
+        "relation": "意象参考",
+        "note": "阿德莱德植物园的荷花近观，用于辨认荷花意象；并非诗作所在地。"
+      },
+      {
+        "asset": "lotus-painting",
+        "relation": "古画参照",
+        "note": "石涛画中的荷花、芙蓉与山石，可比较植物意象；不代表本篇写作现场。"
+      }
+    ]
+  },
+  "catalog-h62": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "chrysanthemum",
+        "relation": "意象参考",
+        "note": "菊花实拍，用于观察花形与色彩；未将拍摄地当作诗作所在地。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-h63": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "desert",
+        "relation": "意象参考",
+        "note": "敦煌鸣沙山的现代沙丘景观，用于联想边塞环境；不表示诗中战场、关隘或作者行程。"
+      },
+      {
+        "asset": "travelers",
+        "relation": "古画参照",
+        "note": "以山川与行旅人物对照边塞诗的空间尺度；画中没有被指认为本诗的战场。"
+      }
+    ]
+  },
+  "catalog-h64": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "xian",
+        "relation": "意象参考",
+        "note": "西安城门夜景，供比较城楼、空间与灯火；现存建筑不是唐代宫城，也不表示本篇写于西安。"
+      },
+      {
+        "asset": "early-spring",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-h65": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "moon",
+        "relation": "意象参考",
+        "note": "伽利略号月面影像为多滤镜合成增强色资料，用于月亮意象联想；并非诗人所在地拍摄的月夜。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "以江面留白与孤舟联想夜色、漂泊或静寂；不代表本篇的具体江河。"
+      }
+    ]
+  },
+  "catalog-h66": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "desert",
+        "relation": "意象参考",
+        "note": "敦煌鸣沙山的现代沙丘景观，用于联想边塞环境；不表示诗中战场、关隘或作者行程。"
+      },
+      {
+        "asset": "travelers",
+        "relation": "古画参照",
+        "note": "以山川与行旅人物对照边塞诗的空间尺度；画中没有被指认为本诗的战场。"
+      }
+    ]
+  },
+  "catalog-h67": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "gorges",
+        "relation": "意象参考",
+        "note": "长江三峡的现代江景，用于观察水势与两岸空间；不是对本篇河流或行程的认定。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-h68": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "snow",
+        "relation": "意象参考",
+        "note": "杭州西湖冬日远眺，用于比较寒意、远景和留白；不作为本诗地点的照片。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-h69": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "moon",
+        "relation": "意象参考",
+        "note": "伽利略号月面影像为多滤镜合成增强色资料，用于月亮意象联想；并非诗人所在地拍摄的月夜。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "以江面留白与孤舟联想夜色、漂泊或静寂；不代表本篇的具体江河。"
+      }
+    ]
+  },
+  "catalog-h70": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "gorges",
+        "relation": "意象参考",
+        "note": "长江三峡的现代江景，用于观察水势与两岸空间；不是对本篇河流或行程的认定。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-h71": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "chrysanthemum",
+        "relation": "意象参考",
+        "note": "菊花实拍，用于观察花形与色彩；未将拍摄地当作诗作所在地。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-h72": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "gorges",
+        "relation": "意象参考",
+        "note": "长江三峡的现代江景，用于观察水势与两岸空间；不是对本篇河流或行程的认定。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-extra-be265913e5": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "snow",
+        "relation": "意象参考",
+        "note": "杭州西湖冬日远眺，用于比较寒意、远景和留白；不作为本诗地点的照片。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-extra-0881eaafcd": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "chrysanthemum",
+        "relation": "意象参考",
+        "note": "菊花实拍，用于观察花形与色彩；未将拍摄地当作诗作所在地。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-extra-46d9d8af34": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "desert",
+        "relation": "意象参考",
+        "note": "敦煌鸣沙山的现代沙丘景观，用于联想边塞环境；不表示诗中战场、关隘或作者行程。"
+      },
+      {
+        "asset": "travelers",
+        "relation": "古画参照",
+        "note": "以山川与行旅人物对照边塞诗的空间尺度；画中没有被指认为本诗的战场。"
+      }
+    ]
+  },
+  "catalog-extra-9b49bf50cb": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "early-spring",
+        "relation": "古画参照",
+        "note": "以宋画的远近层次与山林人物作为阅读联想；并非本篇写作地点或事件的证据。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "以山水画的疏密、留白作视觉参照；不据画认定作者到过富春江。"
+      }
+    ]
+  },
+  "catalog-extra-3e713d9cc9": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "desert",
+        "relation": "意象参考",
+        "note": "敦煌鸣沙山的现代沙丘景观，用于联想边塞环境；不表示诗中战场、关隘或作者行程。"
+      },
+      {
+        "asset": "travelers",
+        "relation": "古画参照",
+        "note": "以山川与行旅人物对照边塞诗的空间尺度；画中没有被指认为本诗的战场。"
+      }
+    ]
+  },
+  "catalog-extra-c012abbbb7": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "xian",
+        "relation": "意象参考",
+        "note": "西安城门夜景用于城阙、古城意象比较；不据此认定诗中的城门。"
+      },
+      {
+        "asset": "travelers",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-extra-2802c3f400": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "moon",
+        "relation": "意象参考",
+        "note": "伽利略号月面影像为多滤镜合成增强色资料，用于月亮意象联想；并非诗人所在地拍摄的月夜。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "以江面留白与孤舟联想夜色、漂泊或静寂；不代表本篇的具体江河。"
+      }
+    ]
+  },
+  "catalog-extra-75023734c0": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "xian",
+        "relation": "意象参考",
+        "note": "西安城门夜景，供比较城楼、空间与灯火；现存建筑不是唐代宫城，也不表示本篇写于西安。"
+      },
+      {
+        "asset": "early-spring",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-extra-b6f97c18ae": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "snow",
+        "relation": "意象参考",
+        "note": "杭州西湖冬日远眺，用于比较寒意、远景和留白；不作为本诗地点的照片。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-extra-20d2c6a831": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "early-spring",
+        "relation": "古画参照",
+        "note": "以宋画的远近层次与山林人物作为阅读联想；并非本篇写作地点或事件的证据。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "以山水画的疏密、留白作视觉参照；不据画认定作者到过富春江。"
+      }
+    ]
+  },
+  "catalog-extra-ad84307844": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "songshan",
+        "relation": "意象参考",
+        "note": "嵩山太室山的现代山景，用于观察山势；不能据配图认定诗中的山。"
+      },
+      {
+        "asset": "travelers",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-extra-b77151822a": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "songshan",
+        "relation": "意象参考",
+        "note": "嵩山太室山的现代山景，用于观察山势；不能据配图认定诗中的山。"
+      },
+      {
+        "asset": "travelers",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-extra-6e2e1f75b7": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "early-spring",
+        "relation": "古画参照",
+        "note": "以宋画的远近层次与山林人物作为阅读联想；并非本篇写作地点或事件的证据。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "以山水画的疏密、留白作视觉参照；不据画认定作者到过富春江。"
+      }
+    ]
+  },
+  "catalog-extra-b2097b4000": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "early-spring",
+        "relation": "古画参照",
+        "note": "以宋画的远近层次与山林人物作为阅读联想；并非本篇写作地点或事件的证据。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "以山水画的疏密、留白作视觉参照；不据画认定作者到过富春江。"
+      }
+    ]
+  },
+  "catalog-extra-2dedf8b1ea": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "songshan",
+        "relation": "意象参考",
+        "note": "嵩山太室山的现代山景，用于观察山势；不能据配图认定诗中的山。"
+      },
+      {
+        "asset": "travelers",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-extra-ff4ceac29d": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "early-spring",
+        "relation": "古画参照",
+        "note": "以宋画的远近层次与山林人物作为阅读联想；并非本篇写作地点或事件的证据。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "以山水画的疏密、留白作视觉参照；不据画认定作者到过富春江。"
+      }
+    ]
+  },
+  "catalog-extra-cf219255e2": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "gorges",
+        "relation": "意象参考",
+        "note": "长江三峡的现代江景，用于观察水势与两岸空间；不是对本篇河流或行程的认定。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-extra-3e7c0ec641": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "gorges",
+        "relation": "意象参考",
+        "note": "长江三峡的现代江景，用于观察水势与两岸空间；不是对本篇河流或行程的认定。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-extra-d06cd856d2": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "early-spring",
+        "relation": "古画参照",
+        "note": "以宋画的远近层次与山林人物作为阅读联想；并非本篇写作地点或事件的证据。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "以山水画的疏密、留白作视觉参照；不据画认定作者到过富春江。"
+      }
+    ]
+  },
+  "catalog-extra-5ea940cfc3": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "moon",
+        "relation": "意象参考",
+        "note": "伽利略号月面影像为多滤镜合成增强色资料，用于月亮意象联想；并非诗人所在地拍摄的月夜。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "以江面留白与孤舟联想夜色、漂泊或静寂；不代表本篇的具体江河。"
+      }
+    ]
+  },
+  "catalog-extra-37473ffd13": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "moon",
+        "relation": "意象参考",
+        "note": "伽利略号月面影像为多滤镜合成增强色资料，用于月亮意象联想；并非诗人所在地拍摄的月夜。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "以江面留白与孤舟联想夜色、漂泊或静寂；不代表本篇的具体江河。"
+      }
+    ]
+  },
+  "catalog-extra-87c015ac45": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "songshan",
+        "relation": "意象参考",
+        "note": "嵩山太室山的现代山景，用于观察山势；不能据配图认定诗中的山。"
+      },
+      {
+        "asset": "travelers",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-extra-143a42cc80": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "plum",
+        "relation": "意象参考",
+        "note": "大阪长居植物园的梅花近观，用于比较花枝与诗句；不是作者故居或诗中地点。"
+      },
+      {
+        "asset": "early-spring",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-extra-dbd39b3522": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "gorges",
+        "relation": "意象参考",
+        "note": "长江三峡的现代江景，用于观察水势与两岸空间；不是对本篇河流或行程的认定。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-extra-fd81fe347f": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "snow",
+        "relation": "意象参考",
+        "note": "杭州西湖冬日远眺，用于比较寒意、远景和留白；不作为本诗地点的照片。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-extra-94e4f36da4": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "moon",
+        "relation": "意象参考",
+        "note": "伽利略号月面影像为多滤镜合成增强色资料，用于月亮意象联想；并非诗人所在地拍摄的月夜。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "以江面留白与孤舟联想夜色、漂泊或静寂；不代表本篇的具体江河。"
+      }
+    ]
+  },
+  "catalog-extra-9eeb81e049": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "xian",
+        "relation": "意象参考",
+        "note": "西安城门夜景用于城阙、古城意象比较；不据此认定诗中的城门。"
+      },
+      {
+        "asset": "travelers",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-extra-e463d36f76": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "gorges",
+        "relation": "意象参考",
+        "note": "长江三峡的现代江景，用于观察水势与两岸空间；不是对本篇河流或行程的认定。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-extra-13b1edcc9d": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "songshan",
+        "relation": "意象参考",
+        "note": "嵩山太室山的现代山景，用于观察山势；不能据配图认定诗中的山。"
+      },
+      {
+        "asset": "travelers",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-extra-1da0079d4a": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "moon",
+        "relation": "意象参考",
+        "note": "伽利略号月面影像为多滤镜合成增强色资料，用于月亮意象联想；并非诗人所在地拍摄的月夜。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "以江面留白与孤舟联想夜色、漂泊或静寂；不代表本篇的具体江河。"
+      }
+    ]
+  },
+  "catalog-extra-1834498fa5": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "gorges",
+        "relation": "意象参考",
+        "note": "长江三峡的现代江景，用于观察水势与两岸空间；不是对本篇河流或行程的认定。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-extra-3f5d84e2cd": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "plum",
+        "relation": "意象参考",
+        "note": "大阪长居植物园的梅花近观，用于比较花枝与诗句；不是作者故居或诗中地点。"
+      },
+      {
+        "asset": "early-spring",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-extra-4106b0e84d": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "gorges",
+        "relation": "意象参考",
+        "note": "长江三峡的现代江景，用于观察水势与两岸空间；不是对本篇河流或行程的认定。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-extra-fd4ed00e56": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "gorges",
+        "relation": "意象参考",
+        "note": "长江三峡的现代江景，用于观察水势与两岸空间；不是对本篇河流或行程的认定。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-extra-cd0cb99863": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "gorges",
+        "relation": "意象参考",
+        "note": "长江三峡的现代江景，用于观察水势与两岸空间；不是对本篇河流或行程的认定。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-extra-a4bbb1b7b6": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "early-spring",
+        "relation": "古画参照",
+        "note": "以宋画的远近层次与山林人物作为阅读联想；并非本篇写作地点或事件的证据。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "以山水画的疏密、留白作视觉参照；不据画认定作者到过富春江。"
+      }
+    ]
+  },
+  "catalog-extra-345726a047": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "early-spring",
+        "relation": "古画参照",
+        "note": "以宋画的远近层次与山林人物作为阅读联想；并非本篇写作地点或事件的证据。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "以山水画的疏密、留白作视觉参照；不据画认定作者到过富春江。"
+      }
+    ]
+  },
+  "catalog-extra-b117fd1396": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "early-spring",
+        "relation": "古画参照",
+        "note": "以宋画的远近层次与山林人物作为阅读联想；并非本篇写作地点或事件的证据。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "以山水画的疏密、留白作视觉参照；不据画认定作者到过富春江。"
+      }
+    ]
+  },
+  "catalog-extra-004d416509": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "early-spring",
+        "relation": "古画参照",
+        "note": "以宋画的远近层次与山林人物作为阅读联想；并非本篇写作地点或事件的证据。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "以山水画的疏密、留白作视觉参照；不据画认定作者到过富春江。"
+      }
+    ]
+  },
+  "catalog-extra-292606e462": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "desert",
+        "relation": "意象参考",
+        "note": "敦煌鸣沙山的现代沙丘景观，用于联想边塞环境；不表示诗中战场、关隘或作者行程。"
+      },
+      {
+        "asset": "travelers",
+        "relation": "古画参照",
+        "note": "以山川与行旅人物对照边塞诗的空间尺度；画中没有被指认为本诗的战场。"
+      }
+    ]
+  },
+  "catalog-extra-68304894cd": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "early-spring",
+        "relation": "古画参照",
+        "note": "以宋画的远近层次与山林人物作为阅读联想；并非本篇写作地点或事件的证据。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "以山水画的疏密、留白作视觉参照；不据画认定作者到过富春江。"
+      }
+    ]
+  },
+  "catalog-extra-36dadd41a0": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "early-spring",
+        "relation": "古画参照",
+        "note": "以宋画的远近层次与山林人物作为阅读联想；并非本篇写作地点或事件的证据。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "以山水画的疏密、留白作视觉参照；不据画认定作者到过富春江。"
+      }
+    ]
+  },
+  "catalog-extra-d4ad72f749": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "后世画家笔下的富春山水，与文章描写的富阳—桐庐地域对照；非吴均时代实景记录。"
+      },
+      {
+        "asset": "gorges",
+        "relation": "山水比较",
+        "note": "另选长江三峡江景比较“奇山异水”的空间感；三峡不是富春江。"
+      }
+    ]
+  },
+  "catalog-extra-e9412cd2fc": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "desert",
+        "relation": "意象参考",
+        "note": "敦煌鸣沙山的现代沙丘景观，用于联想边塞环境；不表示诗中战场、关隘或作者行程。"
+      },
+      {
+        "asset": "travelers",
+        "relation": "古画参照",
+        "note": "以山川与行旅人物对照边塞诗的空间尺度；画中没有被指认为本诗的战场。"
+      }
+    ]
+  },
+  "catalog-extra-8db11d3cff": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "gorges",
+        "relation": "意象参考",
+        "note": "长江三峡的现代江景，用于观察水势与两岸空间；不是对本篇河流或行程的认定。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-extra-9e2f22f2ae": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "moon",
+        "relation": "意象参考",
+        "note": "伽利略号月面影像为多滤镜合成增强色资料，用于月亮意象联想；并非诗人所在地拍摄的月夜。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "以江面留白与孤舟联想夜色、漂泊或静寂；不代表本篇的具体江河。"
+      }
+    ]
+  },
+  "catalog-extra-674bf47bd0": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "moon",
+        "relation": "意象参考",
+        "note": "伽利略号月面影像为多滤镜合成增强色资料，用于月亮意象联想；并非诗人所在地拍摄的月夜。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "以江面留白与孤舟联想夜色、漂泊或静寂；不代表本篇的具体江河。"
+      }
+    ]
+  },
+  "catalog-extra-eb635ad9a8": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "desert",
+        "relation": "意象参考",
+        "note": "敦煌鸣沙山的现代沙丘景观，用于联想边塞环境；不表示诗中战场、关隘或作者行程。"
+      },
+      {
+        "asset": "travelers",
+        "relation": "古画参照",
+        "note": "以山川与行旅人物对照边塞诗的空间尺度；画中没有被指认为本诗的战场。"
+      }
+    ]
+  },
+  "catalog-extra-27ae8b1262": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "early-spring",
+        "relation": "古画参照",
+        "note": "以宋画的远近层次与山林人物作为阅读联想；并非本篇写作地点或事件的证据。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "以山水画的疏密、留白作视觉参照；不据画认定作者到过富春江。"
+      }
+    ]
+  },
+  "catalog-extra-8dd8220069": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "early-spring",
+        "relation": "古画参照",
+        "note": "以宋画的远近层次与山林人物作为阅读联想；并非本篇写作地点或事件的证据。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "以山水画的疏密、留白作视觉参照；不据画认定作者到过富春江。"
+      }
+    ]
+  },
+  "catalog-extra-29b7e58b35": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "early-spring",
+        "relation": "古画参照",
+        "note": "以宋画的远近层次与山林人物作为阅读联想；并非本篇写作地点或事件的证据。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "以山水画的疏密、留白作视觉参照；不据画认定作者到过富春江。"
+      }
+    ]
+  },
+  "catalog-textbook-c8b7466378": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "gorges",
+        "relation": "意象参考",
+        "note": "长江三峡的现代江景，用于观察水势与两岸空间；不是对本篇河流或行程的认定。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-textbook-3bcaa0f75f": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "desert",
+        "relation": "意象参考",
+        "note": "敦煌鸣沙山的现代沙丘景观，用于联想边塞环境；不表示诗中战场、关隘或作者行程。"
+      },
+      {
+        "asset": "travelers",
+        "relation": "古画参照",
+        "note": "以山川与行旅人物对照边塞诗的空间尺度；画中没有被指认为本诗的战场。"
+      }
+    ]
+  },
+  "catalog-textbook-e72cd7e909": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "songshan",
+        "relation": "意象参考",
+        "note": "嵩山太室山的现代山景，用于观察山势；不能据配图认定诗中的山。"
+      },
+      {
+        "asset": "travelers",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-textbook-d3aec9912f": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "moon",
+        "relation": "意象参考",
+        "note": "伽利略号月面影像为多滤镜合成增强色资料，用于月亮意象联想；并非诗人所在地拍摄的月夜。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "以江面留白与孤舟联想夜色、漂泊或静寂；不代表本篇的具体江河。"
+      }
+    ]
+  },
+  "catalog-textbook-df622033ae": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "plum",
+        "relation": "意象参考",
+        "note": "大阪长居植物园的梅花近观，用于比较花枝与诗句；不是作者故居或诗中地点。"
+      },
+      {
+        "asset": "early-spring",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-textbook-587d91c734": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "early-spring",
+        "relation": "古画参照",
+        "note": "以宋画的远近层次与山林人物作为阅读联想；并非本篇写作地点或事件的证据。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "以山水画的疏密、留白作视觉参照；不据画认定作者到过富春江。"
+      }
+    ]
+  },
+  "catalog-textbook-650d195305": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "early-spring",
+        "relation": "古画参照",
+        "note": "以宋画的远近层次与山林人物作为阅读联想；并非本篇写作地点或事件的证据。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "以山水画的疏密、留白作视觉参照；不据画认定作者到过富春江。"
+      }
+    ]
+  },
+  "catalog-textbook-62fd7bf286": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "moon",
+        "relation": "意象参考",
+        "note": "伽利略号月面影像为多滤镜合成增强色资料，用于月亮意象联想；并非诗人所在地拍摄的月夜。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "以江面留白与孤舟联想夜色、漂泊或静寂；不代表本篇的具体江河。"
+      }
+    ]
+  },
+  "catalog-textbook-0c35516d18": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "moon",
+        "relation": "意象参考",
+        "note": "伽利略号月面影像为多滤镜合成增强色资料，用于月亮意象联想；并非诗人所在地拍摄的月夜。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "以江面留白与孤舟联想夜色、漂泊或静寂；不代表本篇的具体江河。"
+      }
+    ]
+  },
+  "catalog-textbook-cd3f45d368": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "moon",
+        "relation": "意象参考",
+        "note": "伽利略号月面影像为多滤镜合成增强色资料，用于月亮意象联想；并非诗人所在地拍摄的月夜。"
+      },
+      {
+        "asset": "boats",
+        "relation": "古画参照",
+        "note": "以江面留白与孤舟联想夜色、漂泊或静寂；不代表本篇的具体江河。"
+      }
+    ]
+  },
+  "catalog-textbook-41df078144": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "gorges",
+        "relation": "意象参考",
+        "note": "长江三峡的现代江景，用于观察水势与两岸空间；不是对本篇河流或行程的认定。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  },
+  "catalog-textbook-54f08962e8": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "early-spring",
+        "relation": "古画参照",
+        "note": "以宋画的远近层次与山林人物作为阅读联想；并非本篇写作地点或事件的证据。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "以山水画的疏密、留白作视觉参照；不据画认定作者到过富春江。"
+      }
+    ]
+  },
+  "catalog-textbook-f4e6161f49": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "early-spring",
+        "relation": "古画参照",
+        "note": "以宋画的远近层次与山林人物作为阅读联想；并非本篇写作地点或事件的证据。"
+      },
+      {
+        "asset": "fuchun",
+        "relation": "古画参照",
+        "note": "以山水画的疏密、留白作视觉参照；不据画认定作者到过富春江。"
+      }
+    ]
+  },
+  "catalog-textbook-03bc21fadd": {
+    "status": "首轮配图",
+    "images": [
+      {
+        "asset": "xian",
+        "relation": "意象参考",
+        "note": "西安城门夜景，供比较城楼、空间与灯火；现存建筑不是唐代宫城，也不表示本篇写于西安。"
+      },
+      {
+        "asset": "early-spring",
+        "relation": "古画参照",
+        "note": "借古画的构图与笔墨观察诗中意境；画作不等于这首诗的插图，也不据画推定写作地点。"
+      }
+    ]
+  }
+}

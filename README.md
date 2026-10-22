@@ -13,7 +13,7 @@
 - **诗意影院**：独立页面收录三段约一分钟的朗诵影片。对应站点显示影片封面，点击后才播放；配中文合成朗诵、原创合成配乐、逐句字幕、场景跳转、全屏及下载。
 - **河湖与诗文地标**：复用 Natural Earth 公版矢量线形，加入11条河流的选取线段、3个湖泊与10处地标。图层可独立开关，部分要素可联动作品；现代概化河道与区域地标不计入诗人行迹。详见 [地图来源与选型](docs/MAP_SOURCES.md)。
 - **历史边疆（按需开启）**：三组注明年代的局部边防示意，用淡紫虚线说明唐代河西—陇右、北宋宋夏与宋辽的区域关系。三首边塞诗可从书架进入背景阅读。这些概念线不是完整、精确国界，图层附依据与范围。
-- **当代实景照片**：庐山瀑布、黄鹤楼、白帝城、杜甫草堂和西湖，附作者、日期与授权来源。
+- **逐篇配图**：215篇／组各配2幅，首轮复用30份现代照片、公版古画与意象图像。地图站点、书架封面和全文画廊同步；支持看完整构图、逐图切换与返回原文。标注作者、年代、许可和与文本的关系，明确区分地域参考与异地意象。配图可独立替换，见 [配图维护指南](docs/POEM_IMAGES.md)。
 - **诗意创作坊（交互演示）**：215篇／组阅读文本联动（三位重点诗人优先），图片场景、视频分镜、仿写三种提示词练习；演示 Token 额度、文本依据与想象说明、作品卡保存、JSON交换和本机互评。使用内置素材，不调用AI、不扣费，不是在线班级投稿平台。详见 [创作坊说明](docs/CREATION_STUDIO.md)。
 - **统一导航**：地图、书架、影院、创作坊、课堂锦囊、关于本页；首页聚焦地图与当前诗文。
 
@@ -26,6 +26,10 @@
 ### 边塞诗与历史背景
 
 ![渔家傲与宋夏局部边防示意](docs/screenshots/frontiers.png)
+
+### 诗文配图
+
+![西湖的现代照片与古画对照](docs/screenshots/poem-gallery.png)
 
 ### 诗意影院
 
@@ -106,7 +110,7 @@ CURRICULUM_AUDIT.md      课标核对记录与参考来源
 ## 素材与许可说明
 
 - 古典作品为公版文本；教学说明为本演示编写。新增整理数据遵循 CC BY-SA 4.0，参考汤圆、Clover Yan、hantang/yuwen 与维基文库；仅收录古典原文，未复制现代教材注释。详见 [署名与校正](dist/assets/catalog/attribution.json) 和 [许可](dist/assets/catalog/LICENSE-CC-BY-SA-4.0.txt)。
-- 实景照片来自 Wikimedia Commons，具体作者、作品链接及各自的 CC BY / CC BY-SA 授权见 [photos.js](dist/photos.js) 与 [原始署名记录](dist/assets/photos/credits.json)。照片经过尺寸适配，界面有裁切展示；相关素材仍适用各自原许可。
+- 实景照片来自 Wikimedia Commons，新增素材完整记录见 [配图署名](dist/assets/poem-images/credits.json)。具体作者、作品链接及各自的 CC BY / CC BY-SA 授权见 [photos.js](dist/photos.js) 与 [原始署名记录](dist/assets/photos/credits.json)。照片经过尺寸适配，界面有裁切展示；相关素材仍适用各自原许可。
 - 影片绘画由 AI 生成，属于动态绘本式艺术复现；朗诵使用 `zh-CN-YunxiNeural` 合成语音，配乐和环境声由程序生成，非真人录音或历史影像。生成提示词与脚本保存在制作目录。
 - 底图：[OpenFreeMap](https://openfreemap.org/) / OpenMapTiles / [OpenStreetMap（ODbL）](https://www.openstreetmap.org/copyright)；高程：[Mapterhorn 及上游开放数据](https://mapterhorn.com/attribution/)；引擎：MapLibre GL JS（BSD-3-Clause，许可附于 `dist/vendor/maplibre/LICENSE.txt`）。页面保留地图署名。
 - 交互方式参考 [DeanChensj/jiangshan-map](https://github.com/DeanChensj/jiangshan-map)，本项目界面与实现独立编写。

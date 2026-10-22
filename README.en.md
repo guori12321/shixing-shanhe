@@ -12,6 +12,12 @@ The library now contains **215 classical readings**, including every entry in th
 
 Filter by stage, author, genre, curriculum course, source, or full text. All readings link to the interactive creation demo. Recitation appendices do not define every possible regional exam or unseen reading question. See the [coverage manifest, sources, and corrections](docs/CURRICULUM_COVERAGE.md). Dataset arrangement follows [CC BY-SA 4.0](dist/assets/catalog/LICENSE-CC-BY-SA-4.0.txt), with [attribution](dist/assets/catalog/attribution.json).
 
+## Illustrated readings
+
+All 215 readings now have two curated image placements, reusing 30 photographs, historical paintings, and imagery references. Map visits, library covers, and full-text galleries share the same per-work choices. Each image states its source, author, date, licence, and relationship to the text. Regional references, later paintings, and imagery from other locations are explicitly distinguished. No reference image is treated as an authenticated writing location. Image choices and assets are separate editable manifests; see the [replacement guide](docs/POEM_IMAGES.md).
+
+![Modern West Lake and a historical painting](docs/screenshots/poem-gallery.png)
+
 ## Features
 
 - **Travel map:** ready-made OpenFreeMap Bright cartography and real Mapterhorn elevation rendered in MapLibre, with rotation, tilt, a flat view, route overview, and close-up terrain at each stop. Route arrows, sequence numbers, and existing work dates show the order of selected stops; click an arrow or year to read the destination work. Approximate dates remain approximate. Modern roads, buildings, and unrelated place labels are hidden to emphasize the poet’s route and relevant literary landmarks. Explore by poet, location, and timeline. Each stop includes the full text, background, reading prompts, and classroom questions. Documented travel, locations mentioned in poems, and uncertain locations are distinguished.
@@ -19,7 +25,7 @@ Filter by stage, author, genre, curriculum course, source, or full text. All rea
 - **Historical frontier context:** an optional, normally hidden layer uses sparse purple dashed schematic lines for three dated regional frontier settings. Three frontier poems link to a separate reading context. These original teaching schematics are partial and approximate, not exact national borders; sources and limits are visible.
 - **Poetry cinema:** three narrated films of about one minute each. Relevant map stops show a film cover; playback starts on click. Includes synthesized Mandarin narration, original synthesized music, Chinese subtitles, scene navigation, fullscreen, and downloads.
 - **Rivers, lakes, and literary landmarks:** restyled public-domain Natural Earth geometry adds selected segments of 11 rivers, 3 lakes, and 10 landmark references. Toggle layers independently and open related works where available. Modern water geometry and regional landmark markers do not add travel stops. See the [map sources and selection notes](docs/MAP_SOURCES.md) (Chinese).
-- **Present-day photography:** Lushan waterfall, Yellow Crane Tower, Baidi City, Du Fu’s cottage, and West Lake, with attribution, dates, and source licenses.
+- **Present-day photography:** locations include Lushan waterfall, Yellow Crane Tower, Baidi City, Du Fu’s cottage, West Lake, Jianmen Pass, Mount Tai, and Huangzhou. Historical paintings and imagery references extend the galleries; all images carry individual source and licence notes.
 - **Poetry creation studio (interaction demo):** all 215 readings can seed editable prompts for scene art, video storyboards, and poetry imitation. Includes resettable demo credits, evidence and imagination notes, local portfolios, JSON exchange, and local peer feedback. Uses built-in reference assets; no live model calls, paid usage, or online classroom publishing. See [studio notes](docs/CREATION_STUDIO.md) (Chinese).
 - **Consistent navigation:** map, library, cinema, creation studio, teaching tips, and project information. The homepage focuses on the map and the selected poem.
 
@@ -105,7 +111,7 @@ The map uses OpenFreeMap cartography and Mapterhorn DEM elevation, rendered with
 ## Sources and licensing
 
 - Classical texts are ancient public-domain works; teaching commentary was written for this demo.
-- Photographs come from Wikimedia Commons. Authors, original pages, and individual CC BY / CC BY-SA licenses are recorded in [photos.js](dist/photos.js) and the [attribution metadata](dist/assets/photos/credits.json). Images are resized and cropped in the UI; their individual licenses continue to apply.
+- Photographs and painting reproductions come from Wikimedia Commons. See the [new image credits](dist/assets/poem-images/credits.json), [editable asset manifest](data/poem-image-assets.json), and [original five-photo credits](dist/assets/photos/credits.json). Individual CC BY, CC BY-SA, CC0, and public-domain terms continue to apply. Cards crop previews; the viewer shows the complete bundled composition.
 - Film illustrations are AI-generated artistic interpretations, animated as illustrated scenes. Mandarin narration uses the synthesized `zh-CN-YunxiNeural` voice; music and ambience are generated by code. These are not human recordings or historical footage. Prompts and scripts are included in the production directory.
 - Cartography: [OpenFreeMap](https://openfreemap.org/) / OpenMapTiles / [OpenStreetMap (ODbL)](https://www.openstreetmap.org/copyright). Elevation: [Mapterhorn and upstream open data](https://mapterhorn.com/attribution/). Engine: MapLibre GL JS (BSD-3-Clause; bundled license in `dist/vendor/maplibre/LICENSE.txt`). Keep on-map attribution.
 - The exploration concept was inspired by [DeanChensj/jiangshan-map](https://github.com/DeanChensj/jiangshan-map). This project’s interface and implementation were written independently.
