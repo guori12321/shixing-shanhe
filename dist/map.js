@@ -1,7 +1,7 @@
 // Shaded artistic relief, raised land edges and travel arcs; coordinates remain geographic.
 let mapStyle='relief';
 function project(lon,lat){return [60+(lon-97)*25,90+(42-lat)*26]}
-function initMapView(){new ResizeObserver(()=>drawMap()).observe($('map').parentElement);document.querySelectorAll('[data-map-style]').forEach(button=>button.onclick=()=>{mapStyle=button.dataset.mapStyle;document.querySelectorAll('[data-map-style]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));drawMap();});}
+function initMapView(){initGeography();new ResizeObserver(()=>drawMap()).observe($('map').parentElement);document.querySelectorAll('[data-map-style]').forEach(button=>button.onclick=()=>{mapStyle=button.dataset.mapStyle;document.querySelectorAll('[data-map-style]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));drawMap();});}
 function drawMap(){
  const p=people[person],svg=$('map'),relief=mapStyle==='relief';const box=svg.parentElement.getBoundingClientRect(),height=840*box.height/Math.max(1,box.width);svg.setAttribute('viewBox',`0 ${(650-height)/2} 840 ${height}`);let shapes='';
  if(geo)for(const f of geo.features){const polys=f.geometry.type==='MultiPolygon'?f.geometry.coordinates:[f.geometry.coordinates];for(const poly of polys){const d=poly.map(r=>r.map((c,i)=>`${i?'L':'M'}${project(c[0],c[1]).map(v=>v.toFixed(2)).join(',')}`).join('')+'Z').join('');shapes+=`<path d="${d}"/>`;}}
@@ -18,7 +18,8 @@ function drawMap(){
  <use href="#landShapes" class="province-lines" fill="none" stroke="${relief?'#647d5f':'#cbd3bf'}" stroke-opacity="${relief?'.24':'1'}" stroke-width=".65"/>
  ${relief?'<use href="#landShapes" fill="none" stroke="#f7f8dd" stroke-opacity=".3" stroke-width=".7" transform="translate(-.5,-.6)"/>':''}
  <text class="sea-label" x="680" y="500">东 海</text>
+ ${renderGeographyLayers(groups)}
  <g class="travel-arcs">${arcs.map(a=>`${relief?`<path class="arc-shadow" d="${a.d}" transform="translate(1,5)"/>`:''}<path class="travel-arc ${a.done?'visited':'future'}" d="${a.d}"/>${a.done&&relief?`<path class="arc-glint" d="${a.d}"/>`:''}`).join('')}</g>
  <g class="map-cities">${[...groups].map(([name,ids],n)=>{const current=ids.includes(step),i=current?step:ids[0],s=p.stops[i],[x,y]=project(s[2],s[3]),imagined=s[11].role==='诗中地点',height=relief?(current?20:10):0;return `<g class="city ${current?'current':''} ${imagined?'imagined':''}" tabindex="0" role="button" aria-label="${name}，${ids.length}篇作品${imagined?'，诗中地点':''}" aria-pressed="${current}" data-step="${i}" transform="translate(${x},${y})"><circle class="pin-hit" r="19"/>${relief?`<ellipse class="pin-shadow" cx="3" cy="3" rx="${current?12:7}" ry="${current?5:3}"/><path class="pin-stem" d="M0 0V${-height}"/>`:''}${current?'<ellipse class="pin-halo" rx="19" ry="10"/>':''}<g transform="translate(0,${-height})">${imagined?'<path class="pin-diamond" d="M0 -7L7 0 0 7 -7 0Z"/>':`<circle class="pin-head" r="${current?8:5}"/>`}${current?'<circle class="pin-center" r="2.5"/>':''}</g><text x="13" y="${-height+(n%2?-8:17)}">${name}${ids.length>1?' · '+ids.length+'篇':''}</text></g>`;}).join('')}</g>`;
- svg.querySelectorAll('.city').forEach(el=>{el.onclick=()=>select(+el.dataset.step);el.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();select(+el.dataset.step);}}});
+ bindGeography();svg.querySelectorAll('.city').forEach(el=>{el.onclick=()=>select(+el.dataset.step);el.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();select(+el.dataset.step);}}});
 }

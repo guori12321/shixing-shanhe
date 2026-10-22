@@ -11,6 +11,7 @@ A Chinese-language teaching demo for junior and senior high school students and 
 - **Travel map:** shaded artistic terrain, raised land edges, lifted travel arcs, and city pins, with a flat-map option. Explore by poet, location, and timeline. Each stop includes the full text, background, reading prompts, and classroom questions. Documented travel, locations mentioned in poems, and uncertain locations are distinguished.
 - **Poetry library:** a dedicated page with 37 works—13 by Li Bai, 12 by Du Fu, and 12 by Su Shi. Filter by author, school stage, source category, or keyword; read full texts, hide them for memorization, and return to the corresponding map stop.
 - **Poetry cinema:** three narrated films of about one minute each. Relevant map stops show a film cover; playback starts on click. Includes synthesized Mandarin narration, original synthesized music, Chinese subtitles, scene navigation, fullscreen, and downloads.
+- **Rivers, lakes, and literary landmarks:** restyled public-domain Natural Earth geometry adds selected segments of 11 rivers, 3 lakes, and 10 landmark references. Toggle layers independently and open related works where available. Modern water geometry and regional landmark markers do not add travel stops. See the [map sources and selection notes](docs/MAP_SOURCES.md) (Chinese).
 - **Present-day photography:** Lushan waterfall, Yellow Crane Tower, Baidi City, Du Fu’s cottage, and West Lake, with attribution, dates, and source licenses.
 - **Consistent navigation:** map, library, cinema, teaching tips, and project information. The homepage focuses on the map and the selected poem.
 
@@ -74,6 +75,7 @@ dist/                    Deployable static website
   poetry-data.js          Base works, poets, and travel data
   curriculum.js          Additional works and learning metadata
   map.js                 Relief layer, travel arcs, and city pins
+  geography.js           Water, landmarks, layer controls, and related works
   app.js                 Timeline and stop details
   library.js             Filters, reading, and curriculum notes
   cinema.js              Film catalog and playback

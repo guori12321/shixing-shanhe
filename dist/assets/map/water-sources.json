@@ -1,0 +1,38 @@
+{
+  "name": "Natural Earth 1:10m physical rivers and lakes, selected features",
+  "accessed": "2026-10-21",
+  "license": "Public domain",
+  "terms": "https://www.naturalearthdata.com/about/terms-of-use/",
+  "rivers": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/",
+  "lakes": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-lakes/",
+  "upstream": "https://github.com/nvkelso/natural-earth-vector",
+  "downloads": {
+    "rivers": {
+      "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_lake_centerlines.geojson",
+      "sha256": "bb854a900ecbd3b408df46d5e16e3e0f974ba55993f9d8b5c26e855273c0905a"
+    },
+    "lakes": {
+      "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_lakes.geojson",
+      "sha256": "2d036f53dedec578001c5c30c2959ee7d4eebc1306900fa4367c49929ec8f2d9"
+    }
+  },
+  "processing": "Selected source feature identifiers; coordinates rounded to 5 decimals; Chinese display names curated; no boundary geometry imported.",
+  "limitation": "Generalized modern reference geometry, not a reconstruction of Tang/Song waterways or a navigation map.",
+  "features": 20,
+  "groups": [
+    "dongting",
+    "fuchun",
+    "gan",
+    "han",
+    "huai",
+    "jialing",
+    "jinsha",
+    "min-sichuan",
+    "poyang",
+    "tai",
+    "wei",
+    "xiang",
+    "yangtze",
+    "yellow"
+  ]
+}
