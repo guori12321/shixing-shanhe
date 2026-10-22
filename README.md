@@ -122,3 +122,9 @@ CURRICULUM_AUDIT.md      课标核对记录与参考来源
 ![提示词、参考场景与阅读说明](docs/screenshots/studio.png)
 
 ![课堂范例与作品交流](docs/screenshots/studio-gallery.png)
+
+### 地区选择（上海首发）
+
+篇目书架默认“上海 · 首发参考版”，突出全国课标背诵篇目并保留三位重点诗人的完整专题，可展开补充或切换全国参考。上海年度考试清单尚待逐项核对；江苏、浙江、北京、广东标注“待接入”并暂不可选。地区选择在四页间保持一致。[接入依据与进度](docs/REGIONS.md)。
+
+![地区选择与三位重点诗人](docs/screenshots/regions.png)

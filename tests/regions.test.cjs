@@ -1,0 +1,16 @@
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
+let saved=null;const controls={authorFilter:{value:'all'},scopeFilter:{value:'all'},poemSearch:{value:''},kindFilter:{value:'all'},courseFilter:{value:'all'},regionSupplements:{checked:false}};
+const c={localStorage:{getItem:()=>saved,setItem:(_,v)=>saved=v},$:id=>controls[id]};vm.createContext(c);
+for(const f of ['curriculum','poetry-data','catalog-data','reading-works','regions','library'])vm.runInContext(fs.readFileSync(`${__dirname}/../dist/${f}.js`,'utf8'),c);
+const run=s=>vm.runInContext(s,c);
+assert.equal(run('currentStudyRegion()'),'shanghai');
+assert.equal(run('filteredWorks().length'),150);
+assert.equal(run('filteredWorks().filter(w=>w.featured).length'),37);
+assert.equal(run("selectStudyRegion('jiangsu')"),false);assert.equal(saved,null);
+assert.equal(run("selectStudyRegion('national')"),true);assert.equal(saved,'national');assert.equal(run('filteredWorks().length'),215);
+saved='jiangsu';assert.equal(run('currentStudyRegion()'),'national');
+run("selectStudyRegion('shanghai')");controls.regionSupplements.checked=true;assert.equal(run('filteredWorks().length'),215);
+controls.regionSupplements.checked=false;controls.scopeFilter.value='core';assert(run('filteredWorks().every(w=>w.meta.scope===\'课标背诵\')'));
+c.localStorage={getItem:()=>{throw Error('blocked')},setItem:()=>{throw Error('blocked')}};run("selectStudyRegion('national')");assert.equal(run('currentStudyRegion()'),'national');
+for(const page of ['index','library','videos','studio'])assert(fs.readFileSync(`${__dirname}/../dist/${page}.html`,'utf8').includes('src="regions.js"'));
+console.log('Regions: Shanghai default, all 37 featured works, national 215, planned region rejection, persistence and storage fallback passed.');

@@ -123,3 +123,9 @@ No single open-source license has been assigned to all repository content. Publi
 ![Prompt editor and reference scene](docs/screenshots/studio.png)
 
 ![Classroom examples and local portfolio exchange](docs/screenshots/studio-gallery.png)
+
+### Regional rollout: Shanghai first
+
+The bookshelf defaults to a Shanghai pilot reference view: national recitation entries plus all 37 works in the three featured poet collections. Readers can include supplements or switch to the full national reference catalog. This is **not yet a verified Shanghai annual exam list**. Jiangsu, Zhejiang, Beijing and Guangdong are clearly marked as planned and disabled. The regional preference persists across all four pages. See [rollout and sources](docs/REGIONS.md).
+
+![Regional selection and featured poets](docs/screenshots/regions.png)
