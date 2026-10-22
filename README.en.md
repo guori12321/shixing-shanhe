@@ -137,3 +137,10 @@ A dedicated [resources page](https://shixing-shanhe.guori12321.chatgpt.site/reso
 ![Curated resources and classroom activities](docs/screenshots/resources.png)
 
 Travel routes use a deep red with a light casing to stand apart from terrain and teal waterways. Solid and dashed lines distinguish earlier and upcoming segments, with matching arrows, a prominent current stop and darker year labels.
+
+### Poetry and photo games
+
+The studio now includes [two matching activities](https://shixing-shanhe.guori12321.chatgpt.site/studio.html#games): find a photo for a poem, or find a poem for a photo. Students can use phone images, HTTPS image links, built-in photos or an explicitly labeled AI scene, cite a line and explain their pairing. Downloadable HTML cards include the picture, reflection and image attribution. Uploads are processed in the browser, do not use demo credits, and remain in the current page session. See [game notes](docs/POETRY_GAMES.md).
+
+![Find a picture for a poem](docs/screenshots/poetry-games.png)
+![Pairing cards in both directions](docs/screenshots/poetry-game-cards.png)

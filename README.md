@@ -136,3 +136,10 @@ CURRICULUM_AUDIT.md      课标核对记录与参考来源
 ![拓展资源与课堂用法](docs/screenshots/resources.png)
 
 地图足迹使用朱红色与浅色描边，区分青绿色河湖和山川底图；已读／后续路线使用实线／虚线，当前站点、方向箭头与年份保持清晰的视觉层级。
+
+### 诗图小游戏
+
+创作坊新增[两个小游戏](https://shixing-shanhe.guori12321.chatgpt.site/studio.html#games)：给古诗配照片、给照片配古诗。支持手机图片、HTTPS图片直链、内置照片与AI场景示例；学生摘录诗句、说明配对理由，可下载含图片与来源的HTML作品卡。上传照片仅在浏览器处理，不消耗演示Token；作品墙只在本页会话中保留。[玩法与边界](docs/POETRY_GAMES.md)。
+
+![给古诗配照片](docs/screenshots/poetry-games.png)
+![两种方向的图文作品卡](docs/screenshots/poetry-game-cards.png)

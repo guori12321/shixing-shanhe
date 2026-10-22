@@ -116,7 +116,7 @@ for r in junior:
  if title=='浣溪沙' and author=='晏殊':continue
  # Same original with a more descriptive featured title should stay one featured work.
  if author in ['李白','杜甫','苏轼']:continue
- category='文言文' if len(r['content'])>180 or any(t in title for t in ['劝学','咏雪','期行','穿井','忧天','卖油翁','细柳','陈涉世家','辱使命','核舟']) else '诗词曲'
+ category='文言文' if len(r['content'])>180 or any(t in title for t in ['劝学','咏雪','期行','穿井','忧天','卖油翁','细柳','陈涉世家','辱使命','核舟','诫子书','与朱元思书']) else '诗词曲'
  uid='catalog-extra-'+hashlib.sha1((title+author+r['content'][:12]).encode()).hexdigest()[:10]
  rows.append(dict(id=uid,title=title,author=author,era=eras.get(author,'古代'),stage='初中',scope='版本补充',course='旧版教材整理',category=category,kind='古文' if category=='文言文' else '诗词',text=format_text(r['content'],category),selection='教材整理文本；不同版本可能节选不同',source=J_SOURCE,unit=None))
 # Textbook components outside the 2025 junior composite selections.
