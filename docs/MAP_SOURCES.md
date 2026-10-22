@@ -6,7 +6,7 @@
 
 直接使用 **OpenFreeMap Bright 现成地图样式**，叠加 **Mapterhorn 真实 DEM 高程**，由 **MapLibre GL JS 5.15.0** 渲染。本站只加入教学行迹、站点、中文标签和地理阅读入口，不再使用程序生成的山地纹理、陆地挤出或自绘地图投影。原来的艺术地形 PNG 与生成脚本已移除。
 
-- [OpenFreeMap 官方接入指南](https://openfreemap.org/quick_start/)：`https://tiles.openfreemap.org/styles/bright`。沿用成套制图，仅把文字优先设为中文名称或当地名称。
+- [OpenFreeMap 官方接入指南](https://openfreemap.org/quick_start/)：`https://tiles.openfreemap.org/styles/bright`。沿用其山川、水域与植被制图；隐藏现代道路、铁路、建筑、机场、聚落用地、行政边界及底图自带文字。全国全览与局部放大均沿用这一简洁方式，只显示本站精选中文教学标注。
 - [Mapterhorn 官方数据访问](https://mapterhorn.com/data-access/)：`https://tiles.mapterhorn.com/tilejson.json`，Terrarium 编码，512像素地形瓦片。[覆盖说明](https://mapterhorn.com/)列出全球30米基础数据；中国大陆使用全球覆盖，不宣称米级精度。
 - [MapLibre 官方三维示例](https://maplibre.org/maplibre-gl-js/docs/examples/3d-terrain/)展示同一 Mapterhorn 高程接入方式。本项目固定使用适合无构建静态页面的5.15.0浏览器包，JS/CSS本地分发，BSD-3-Clause许可见 `dist/vendor/maplibre/LICENSE.txt`。
 - [Mapterhorn 上游来源与许可](https://mapterhorn.com/attribution/)。地图底部自动保留高程来源署名。
@@ -35,11 +35,11 @@ Natural Earth **1:1000万物理矢量数据**（10m 指1:10 million比例尺，�
 
 20个源要素组合为14组：长江、金沙江、黄河、汉江、赣江、岷江、富春江、湘江、淮河、嘉陵江、渭河，以及洞庭湖、鄱阳湖、太湖。概化河湖教学叠层在放大到城市附近后隐藏，近景改用现成底图更细致的水系；图层按钮控制教学叠层，不移除底图原有水域。部分河湖点击可关联诗文。
 
-10处诗文地标：庐山、泰山、嵩山、天姥山、黄鹤楼、白帝城、岳阳楼、杜甫草堂、西湖、石钟山。位置沿用原有教学区域坐标，不是建筑的精确定位；与当前作者站点同名的区域不重复画点。岳阳楼另附[岳阳市公开资料](https://www.yueyang.gov.cn/yyskl/58123/58124/58129/content_1612371.html)。标签由地图引擎避让。
+10处诗文地标：庐山、泰山、嵩山、天姥山、黄鹤楼、白帝城、岳阳楼、杜甫草堂、西湖、石钟山。位置沿用原有教学区域坐标，不是建筑的精确定位；只显示与当前诗人收录作品有关的地标；与当前作者站点同名的区域不重复画点。岳阳楼另附[岳阳市公开资料](https://www.yueyang.gov.cn/yyskl/58123/58124/58129/content_1612371.html)。标签由地图引擎避让。
 
 ## 教学边界
 
-- 现成底图、高程、河湖与路网反映现代地理，不是唐宋复原。地图上的现代道路不代表诗人的交通路线。
+- 现成底图、高程、河湖与路网反映现代地理，不是唐宋复原。现代道路与聚落文字已隐藏；自然景观仍是现代地理参考，不是唐宋复原。
 - 金色连线只串联可定位的精选行迹；诗中地点与待考作品不计入连线。地标与水系不会为诗人增加行程。
 - 《将进酒》的黄河意象不能证明作者站在黄河岸；《梦游天姥吟留别》的梦境也不是亲历证据。
 - 1.5倍高程显示用于观察，不用于测量；区域坐标不能定位庐山瀑布的具体观景点。

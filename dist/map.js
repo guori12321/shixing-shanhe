@@ -30,9 +30,11 @@ function initMapView(){
  });
  terrainMap.on('load',()=>{
   clearTimeout(mapFaultTimer);
-  // Retain the provider's ready-made Bright style; localize its text labels only.
+  // Keep the provider's natural landscape; omit modern transport, settlements,
+  // buildings, boundaries and labels at every zoom. Teaching labels are added below.
+  const modernLayers=new Set(['transportation','transportation_name','building','aeroway','aerodrome_label','boundary','landuse','place','poi','housenumber']);
   for(const layer of terrainMap.getStyle().layers){
-   if(layer.type==='symbol'&&layer.layout?.['text-field'])terrainMap.setLayoutProperty(layer.id,'text-field',['coalesce',['get','name:zh'],['get','name:nonlatin'],['get','name'],['get','name:latin']]);
+   if(layer.type==='symbol'||modernLayers.has(layer['source-layer']))terrainMap.setLayoutProperty(layer.id,'visibility','none');
   }
   terrainMap.addSource('elevation',{type:'raster-dem',url:'https://tiles.mapterhorn.com/tilejson.json',tileSize:512,encoding:'terrarium',maxzoom:12});
   const firstSymbol=terrainMap.getStyle().layers.find(l=>l.type==='symbol')?.id;
@@ -49,7 +51,7 @@ function initMapView(){
   terrainMap.addLayer({id:'landmark-names',type:'symbol',source:'poem-landmarks',layout:{'text-field':['get','name'],'text-font':['Noto Sans Regular'],'text-size':11,'text-anchor':'top','text-offset':[0,1]},paint:{'text-color':'#5c704d','text-halo-color':'#fffef5','text-halo-width':2}});
   terrainMap.addLayer({id:'stop-halo',type:'circle',source:'poet-stops',filter:['==',['get','current'],true],paint:{'circle-radius':17,'circle-color':'#c59956','circle-opacity':.25}});
   terrainMap.addLayer({id:'stop-points',type:'circle',source:'poet-stops',paint:{'circle-radius':['case',['get','current'],8,5],'circle-color':['case',['get','imagined'],'#6d9890',['get','current'],'#ac6b38','#fff9e7'],'circle-stroke-color':'#9e7247','circle-stroke-width':2}});
-  terrainMap.addLayer({id:'stop-names',type:'symbol',source:'poet-stops',layout:{'text-field':['get','label'],'text-font':['Noto Sans Regular'],'text-size':13,'text-anchor':'left','text-offset':[.9,0],'text-allow-overlap':false,'symbol-sort-key':['case',['get','current'],0,1]},paint:{'text-color':['case',['get','current'],'#82491e','#3c5745'],'text-halo-color':'#fffcef','text-halo-width':2}});
+  terrainMap.addLayer({id:'stop-names',type:'symbol',source:'poet-stops',layout:{'text-field':['get','label'],'text-font':['Noto Sans Regular'],'text-size':['case',['get','current'],15,13],'text-anchor':'left','text-offset':[.9,0],'text-allow-overlap':false,'symbol-sort-key':['case',['get','current'],0,1]},paint:{'text-color':['case',['get','current'],'#82491e','#3c5745'],'text-halo-color':'#fffcef','text-halo-width':2}});
   const interactive=['stop-points','stop-names','landmark-points','landmark-names','water-rivers','water-lakes','water-names'];
   terrainMap.on('click',e=>{const features=terrainMap.queryRenderedFeatures([[e.point.x-5,e.point.y-5],[e.point.x+5,e.point.y+5]],{layers:interactive});const f=features.find(f=>f.source==='poet-stops')||features.find(f=>f.source==='poem-landmarks')||features[0];if(!f)return;if(f.source==='poet-stops')select(+f.properties.step);else showGeography(f.properties.topic);});
   terrainMap.on('mousemove',e=>{terrainMap.getCanvas().style.cursor=terrainMap.queryRenderedFeatures(e.point,{layers:interactive}).length?'pointer':'';});
@@ -68,7 +70,7 @@ function drawMap(){
  terrainMap.getSource('water-labels').setData(mapCollection(showWater?Object.entries(waterTopics).map(([id,t])=>mapFeature({type:'Point',coordinates:t.anchor},{topic:id,name:t.name})):[]));
  // Water line features retain their Natural Earth group IDs for teaching popups.
  if(showWater&&waterData)terrainMap.getSource('teaching-water').setData(mapCollection(waterData.features.map(f=>({...f,properties:{...f.properties,topic:f.properties.group}}))));
- terrainMap.getSource('poem-landmarks').setData(mapCollection(showLandmarks?poemLandmarks.filter(m=>!groups.has(m.region)).map(m=>mapFeature({type:'Point',coordinates:[m.lon,m.lat]},{name:m.name,topic:'landmark:'+m.id})):[]));
+ terrainMap.getSource('poem-landmarks').setData(mapCollection(showLandmarks?poemLandmarks.filter(m=>!groups.has(m.region)&&m.works.some(id=>p.stops.some(s=>s[11].id===id))).map(m=>mapFeature({type:'Point',coordinates:[m.lon,m.lat]},{name:m.name,topic:'landmark:'+m.id})):[]));
  const key=person+':'+step;
  if(key!==lastMapSelection){const changedPerson=lastMapSelection.split(':')[0]!==String(person),first=!lastMapSelection;lastMapSelection=key;if(changedPerson&&(!first||!new URLSearchParams(location.search).get('work')))overviewMap();else if(s[2]!=null)focusMapStop();else overviewMap();}
 }
