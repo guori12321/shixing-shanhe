@@ -16,7 +16,7 @@ const people=[{name:'李白',years:'701—762',title:'诗仙 · 浪漫的远行�
 ];
 const curriculumSources={
  junior:{label:'初中课标 · 2022年版2025年修订',url:'https://fxzx.qpedu.cn/jhzx/kcjs/kcbz/511663.htm',pdf:'https://fxzx.qpedu.cn/wcm.files/upload/CMSfxzx/202603/202603190907004.pdf',pages:'附录1，第61—63页（PDF第64—66页）'},
- high:{label:'高中课标 · 2017年版2025年修订',url:'https://scmlzx.cn/news/202511/497838942620618752.html',pdf:'https://scmlzx.cn/upload/uploadfile/2025/1110/（2）普通高中语文课程标准日常修订版（2017年版2025年修订）.pdf',pages:'附录1，第57—60页（PDF第60—63页）'},
+ high:{label:'高中课标 · 2017年版2025年修订',url:'https://scmlzx.cn/news/202511/497838942620618752.html',pdf:'https://scmlzx.cn/upload/uploadfile/2025/1110/（2）普通高中语文课程标准日常修订版（2017年版2025年修订）.pdf',pages:'附录1，第57—61页（PDF第60—64页）'},
  textbook:{label:'人教社公开教材目录与示范诵读',url:'https://www.pep.com.cn/xw/zt/hd/ywsd/'},
  original:{label:'古诗文原文参考汇编（高校公开资源）',url:'https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf'}
 };

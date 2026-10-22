@@ -1,0 +1,1328 @@
+{
+  "edition": "2025日常修订版",
+  "checked": "2026-10-22",
+  "juniorUnits": 60,
+  "highUnits": 72,
+  "units": [
+    {
+      "unit": "J01",
+      "stage": "初中",
+      "order": 1,
+      "title": "关雎",
+      "author": "《诗经》",
+      "category": "诗词曲",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J02",
+      "stage": "初中",
+      "order": 2,
+      "title": "蒹葭",
+      "author": "《诗经》",
+      "category": "诗词曲",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J03",
+      "stage": "初中",
+      "order": 3,
+      "title": "十五从军征",
+      "author": "汉乐府",
+      "category": "诗词曲",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J04",
+      "stage": "初中",
+      "order": 4,
+      "title": "观沧海",
+      "author": "曹操",
+      "category": "诗词曲",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J05",
+      "stage": "初中",
+      "order": 5,
+      "title": "饮酒（其五）",
+      "author": "陶渊明",
+      "category": "诗词曲",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J06",
+      "stage": "初中",
+      "order": 6,
+      "title": "木兰诗",
+      "author": "北朝民歌",
+      "category": "诗词曲",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J07",
+      "stage": "初中",
+      "order": 7,
+      "title": "送杜少府之任蜀州",
+      "author": "王勃",
+      "category": "诗词曲",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J08",
+      "stage": "初中",
+      "order": 8,
+      "title": "登幽州台歌",
+      "author": "陈子昂",
+      "category": "诗词曲",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J09",
+      "stage": "初中",
+      "order": 9,
+      "title": "次北固山下",
+      "author": "王湾",
+      "category": "诗词曲",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J10",
+      "stage": "初中",
+      "order": 10,
+      "title": "使至塞上",
+      "author": "王维",
+      "category": "诗词曲",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J11",
+      "stage": "初中",
+      "order": 11,
+      "title": "闻王昌龄左迁龙标遥有此寄",
+      "author": "李白",
+      "category": "诗词曲",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J12",
+      "stage": "初中",
+      "order": 12,
+      "title": "行路难（其一）",
+      "author": "李白",
+      "category": "诗词曲",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J13",
+      "stage": "初中",
+      "order": 13,
+      "title": "黄鹤楼",
+      "author": "崔颢",
+      "category": "诗词曲",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J14",
+      "stage": "初中",
+      "order": 14,
+      "title": "望岳",
+      "author": "杜甫",
+      "category": "诗词曲",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J15",
+      "stage": "初中",
+      "order": 15,
+      "title": "春望",
+      "author": "杜甫",
+      "category": "诗词曲",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J16",
+      "stage": "初中",
+      "order": 16,
+      "title": "茅屋为秋风所破歌",
+      "author": "杜甫",
+      "category": "诗词曲",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J17",
+      "stage": "初中",
+      "order": 17,
+      "title": "白雪歌送武判官归京",
+      "author": "岑参",
+      "category": "诗词曲",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J18",
+      "stage": "初中",
+      "order": 18,
+      "title": "酬乐天扬州初逢席上见赠",
+      "author": "刘禹锡",
+      "category": "诗词曲",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J19",
+      "stage": "初中",
+      "order": 19,
+      "title": "卖炭翁",
+      "author": "白居易",
+      "category": "诗词曲",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J20",
+      "stage": "初中",
+      "order": 20,
+      "title": "钱塘湖春行",
+      "author": "白居易",
+      "category": "诗词曲",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J21",
+      "stage": "初中",
+      "order": 21,
+      "title": "雁门太守行",
+      "author": "李贺",
+      "category": "诗词曲",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J22",
+      "stage": "初中",
+      "order": 22,
+      "title": "赤壁",
+      "author": "杜牧",
+      "category": "诗词曲",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J23",
+      "stage": "初中",
+      "order": 23,
+      "title": "泊秦淮",
+      "author": "杜牧",
+      "category": "诗词曲",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J24",
+      "stage": "初中",
+      "order": 24,
+      "title": "夜雨寄北",
+      "author": "李商隐",
+      "category": "诗词曲",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J25",
+      "stage": "初中",
+      "order": 25,
+      "title": "无题（相见时难别亦难）",
+      "author": "李商隐",
+      "category": "诗词曲",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J26",
+      "stage": "初中",
+      "order": 26,
+      "title": "相见欢（无言独上西楼）",
+      "author": "李煜",
+      "category": "诗词曲",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J27",
+      "stage": "初中",
+      "order": 27,
+      "title": "渔家傲·秋思",
+      "author": "范仲淹",
+      "category": "诗词曲",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J28",
+      "stage": "初中",
+      "order": 28,
+      "title": "浣溪沙（一曲新词酒一杯）",
+      "author": "晏殊",
+      "category": "诗词曲",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J29",
+      "stage": "初中",
+      "order": 29,
+      "title": "登飞来峰",
+      "author": "王安石",
+      "category": "诗词曲",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J30",
+      "stage": "初中",
+      "order": 30,
+      "title": "江城子·密州出猎",
+      "author": "苏轼",
+      "category": "诗词曲",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J31",
+      "stage": "初中",
+      "order": 31,
+      "title": "水调歌头·明月几时有",
+      "author": "苏轼",
+      "category": "诗词曲",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J32",
+      "stage": "初中",
+      "order": 32,
+      "title": "渔家傲（天接云涛连晓雾）",
+      "author": "李清照",
+      "category": "诗词曲",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J33",
+      "stage": "初中",
+      "order": 33,
+      "title": "游山西村",
+      "author": "陆游",
+      "category": "诗词曲",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J34",
+      "stage": "初中",
+      "order": 34,
+      "title": "南乡子·登京口北固亭有怀",
+      "author": "辛弃疾",
+      "category": "诗词曲",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J35",
+      "stage": "初中",
+      "order": 35,
+      "title": "破阵子·为陈同甫赋壮词以寄之",
+      "author": "辛弃疾",
+      "category": "诗词曲",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J36",
+      "stage": "初中",
+      "order": 36,
+      "title": "过零丁洋",
+      "author": "文天祥",
+      "category": "诗词曲",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J37",
+      "stage": "初中",
+      "order": 37,
+      "title": "天净沙·秋思",
+      "author": "马致远",
+      "category": "诗词曲",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J38",
+      "stage": "初中",
+      "order": 38,
+      "title": "山坡羊·潼关怀古",
+      "author": "张养浩",
+      "category": "诗词曲",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J39",
+      "stage": "初中",
+      "order": 39,
+      "title": "己亥杂诗（其五）",
+      "author": "龚自珍",
+      "category": "诗词曲",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J40",
+      "stage": "初中",
+      "order": 40,
+      "title": "满江红（小住京华）",
+      "author": "秋瑾",
+      "category": "诗词曲",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J41",
+      "stage": "初中",
+      "order": 41,
+      "title": "《论语》十二章",
+      "author": "《论语》",
+      "category": "文言文",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J42",
+      "stage": "初中",
+      "order": 42,
+      "title": "曹刿论战",
+      "author": "《左传》",
+      "category": "文言文",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J43",
+      "stage": "初中",
+      "order": 43,
+      "title": "《孟子》三则",
+      "author": "《孟子》",
+      "category": "文言文",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J44",
+      "stage": "初中",
+      "order": 44,
+      "title": "北冥有鱼",
+      "author": "《庄子》",
+      "category": "文言文",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J45",
+      "stage": "初中",
+      "order": 45,
+      "title": "虽有嘉肴",
+      "author": "《礼记》",
+      "category": "文言文",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J46",
+      "stage": "初中",
+      "order": 46,
+      "title": "伯牙鼓琴",
+      "author": "《吕氏春秋》",
+      "category": "文言文",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J47",
+      "stage": "初中",
+      "order": 47,
+      "title": "邹忌讽齐王纳谏",
+      "author": "《战国策》",
+      "category": "文言文",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J48",
+      "stage": "初中",
+      "order": 48,
+      "title": "出师表",
+      "author": "诸葛亮",
+      "category": "文言文",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J49",
+      "stage": "初中",
+      "order": 49,
+      "title": "桃花源记",
+      "author": "陶渊明",
+      "category": "文言文",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J50",
+      "stage": "初中",
+      "order": 50,
+      "title": "答谢中书书",
+      "author": "陶弘景",
+      "category": "文言文",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J51",
+      "stage": "初中",
+      "order": 51,
+      "title": "三峡",
+      "author": "郦道元",
+      "category": "文言文",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J52",
+      "stage": "初中",
+      "order": 52,
+      "title": "马说",
+      "author": "韩愈",
+      "category": "文言文",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J53",
+      "stage": "初中",
+      "order": 53,
+      "title": "陋室铭",
+      "author": "刘禹锡",
+      "category": "文言文",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J54",
+      "stage": "初中",
+      "order": 54,
+      "title": "小石潭记",
+      "author": "柳宗元",
+      "category": "文言文",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J55",
+      "stage": "初中",
+      "order": 55,
+      "title": "岳阳楼记",
+      "author": "范仲淹",
+      "category": "文言文",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J56",
+      "stage": "初中",
+      "order": 56,
+      "title": "醉翁亭记",
+      "author": "欧阳修",
+      "category": "文言文",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J57",
+      "stage": "初中",
+      "order": 57,
+      "title": "爱莲说",
+      "author": "周敦颐",
+      "category": "文言文",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J58",
+      "stage": "初中",
+      "order": 58,
+      "title": "记承天寺夜游",
+      "author": "苏轼",
+      "category": "文言文",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J59",
+      "stage": "初中",
+      "order": 59,
+      "title": "送东阳马生序（节选）",
+      "author": "宋濂",
+      "category": "文言文",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "J60",
+      "stage": "初中",
+      "order": 60,
+      "title": "湖心亭看雪",
+      "author": "张岱",
+      "category": "文言文",
+      "course": "7—9年级",
+      "source": "junior"
+    },
+    {
+      "unit": "H01",
+      "stage": "高中",
+      "order": 1,
+      "title": "《论语》十二章",
+      "author": "《论语》",
+      "category": "文言文",
+      "course": "必修",
+      "source": "high"
+    },
+    {
+      "unit": "H02",
+      "stage": "高中",
+      "order": 2,
+      "title": "劝学",
+      "author": "荀子",
+      "category": "文言文",
+      "course": "必修",
+      "source": "high"
+    },
+    {
+      "unit": "H03",
+      "stage": "高中",
+      "order": 3,
+      "title": "屈原列传",
+      "author": "司马迁",
+      "category": "文言文",
+      "course": "必修",
+      "source": "high"
+    },
+    {
+      "unit": "H04",
+      "stage": "高中",
+      "order": 4,
+      "title": "谏太宗十思疏",
+      "author": "魏征",
+      "category": "文言文",
+      "course": "必修",
+      "source": "high"
+    },
+    {
+      "unit": "H05",
+      "stage": "高中",
+      "order": 5,
+      "title": "师说",
+      "author": "韩愈",
+      "category": "文言文",
+      "course": "必修",
+      "source": "high"
+    },
+    {
+      "unit": "H06",
+      "stage": "高中",
+      "order": 6,
+      "title": "阿房宫赋",
+      "author": "杜牧",
+      "category": "文言文",
+      "course": "必修",
+      "source": "high"
+    },
+    {
+      "unit": "H07",
+      "stage": "高中",
+      "order": 7,
+      "title": "六国论",
+      "author": "苏洵",
+      "category": "文言文",
+      "course": "必修",
+      "source": "high"
+    },
+    {
+      "unit": "H08",
+      "stage": "高中",
+      "order": 8,
+      "title": "答司马谏议书",
+      "author": "王安石",
+      "category": "文言文",
+      "course": "必修",
+      "source": "high"
+    },
+    {
+      "unit": "H09",
+      "stage": "高中",
+      "order": 9,
+      "title": "赤壁赋",
+      "author": "苏轼",
+      "category": "文言文",
+      "course": "必修",
+      "source": "high"
+    },
+    {
+      "unit": "H10",
+      "stage": "高中",
+      "order": 10,
+      "title": "项脊轩志",
+      "author": "归有光",
+      "category": "文言文",
+      "course": "必修",
+      "source": "high"
+    },
+    {
+      "unit": "H11",
+      "stage": "高中",
+      "order": 11,
+      "title": "子路、曾皙、冉有、公西华侍坐",
+      "author": "《论语》",
+      "category": "文言文",
+      "course": "选择性必修",
+      "source": "high"
+    },
+    {
+      "unit": "H12",
+      "stage": "高中",
+      "order": 12,
+      "title": "礼运",
+      "author": "《礼记》",
+      "category": "文言文",
+      "course": "选择性必修",
+      "source": "high"
+    },
+    {
+      "unit": "H13",
+      "stage": "高中",
+      "order": 13,
+      "title": "过秦论（上）",
+      "author": "贾谊",
+      "category": "文言文",
+      "course": "选择性必修",
+      "source": "high"
+    },
+    {
+      "unit": "H14",
+      "stage": "高中",
+      "order": 14,
+      "title": "报任安书",
+      "author": "司马迁",
+      "category": "文言文",
+      "course": "选择性必修",
+      "source": "high"
+    },
+    {
+      "unit": "H15",
+      "stage": "高中",
+      "order": 15,
+      "title": "陈情表",
+      "author": "李密",
+      "category": "文言文",
+      "course": "选择性必修",
+      "source": "high"
+    },
+    {
+      "unit": "H16",
+      "stage": "高中",
+      "order": 16,
+      "title": "归去来兮辞（并序）",
+      "author": "陶渊明",
+      "category": "文言文",
+      "course": "选择性必修",
+      "source": "high"
+    },
+    {
+      "unit": "H17",
+      "stage": "高中",
+      "order": 17,
+      "title": "种树郭橐驼传",
+      "author": "柳宗元",
+      "category": "文言文",
+      "course": "选择性必修",
+      "source": "high"
+    },
+    {
+      "unit": "H18",
+      "stage": "高中",
+      "order": 18,
+      "title": "五代史伶官传序",
+      "author": "欧阳修",
+      "category": "文言文",
+      "course": "选择性必修",
+      "source": "high"
+    },
+    {
+      "unit": "H19",
+      "stage": "高中",
+      "order": 19,
+      "title": "石钟山记",
+      "author": "苏轼",
+      "category": "文言文",
+      "course": "选择性必修",
+      "source": "high"
+    },
+    {
+      "unit": "H20",
+      "stage": "高中",
+      "order": 20,
+      "title": "登泰山记",
+      "author": "姚鼐",
+      "category": "文言文",
+      "course": "选择性必修",
+      "source": "high"
+    },
+    {
+      "unit": "H21",
+      "stage": "高中",
+      "order": 21,
+      "title": "《老子》八章",
+      "author": "老子",
+      "category": "文言文",
+      "course": "选修",
+      "source": "elective"
+    },
+    {
+      "unit": "H22",
+      "stage": "高中",
+      "order": 22,
+      "title": "季氏将伐颛臾",
+      "author": "《论语》",
+      "category": "文言文",
+      "course": "选修",
+      "source": "elective"
+    },
+    {
+      "unit": "H23",
+      "stage": "高中",
+      "order": 23,
+      "title": "大学（节选）",
+      "author": "《礼记》",
+      "category": "文言文",
+      "course": "选修",
+      "source": "elective"
+    },
+    {
+      "unit": "H24",
+      "stage": "高中",
+      "order": 24,
+      "title": "中庸（节选）",
+      "author": "《礼记》",
+      "category": "文言文",
+      "course": "选修",
+      "source": "elective"
+    },
+    {
+      "unit": "H25",
+      "stage": "高中",
+      "order": 25,
+      "title": "《孟子》一则（浩然之气）",
+      "author": "《孟子》",
+      "category": "文言文",
+      "course": "选修",
+      "source": "elective"
+    },
+    {
+      "unit": "H26",
+      "stage": "高中",
+      "order": 26,
+      "title": "逍遥游（五石之瓠）",
+      "author": "庄子",
+      "category": "文言文",
+      "course": "选修",
+      "source": "elective"
+    },
+    {
+      "unit": "H27",
+      "stage": "高中",
+      "order": 27,
+      "title": "谏逐客书",
+      "author": "李斯",
+      "category": "文言文",
+      "course": "选修",
+      "source": "elective"
+    },
+    {
+      "unit": "H28",
+      "stage": "高中",
+      "order": 28,
+      "title": "兰亭集序",
+      "author": "王羲之",
+      "category": "文言文",
+      "course": "选修",
+      "source": "elective"
+    },
+    {
+      "unit": "H29",
+      "stage": "高中",
+      "order": 29,
+      "title": "滕王阁序",
+      "author": "王勃",
+      "category": "文言文",
+      "course": "选修",
+      "source": "elective"
+    },
+    {
+      "unit": "H30",
+      "stage": "高中",
+      "order": 30,
+      "title": "黄冈竹楼记",
+      "author": "王禹偁",
+      "category": "文言文",
+      "course": "选修",
+      "source": "elective"
+    },
+    {
+      "unit": "H31",
+      "stage": "高中",
+      "order": 31,
+      "title": "上枢密韩太尉书",
+      "author": "苏辙",
+      "category": "文言文",
+      "course": "选修",
+      "source": "elective"
+    },
+    {
+      "unit": "H32",
+      "stage": "高中",
+      "order": 32,
+      "title": "古代文论选段（六则）",
+      "author": "历代文论",
+      "category": "文言文",
+      "course": "选修",
+      "source": "elective"
+    },
+    {
+      "unit": "H33",
+      "stage": "高中",
+      "order": 33,
+      "title": "静女",
+      "author": "《诗经·邶风》",
+      "category": "诗词曲",
+      "course": "诗词曲",
+      "source": "high"
+    },
+    {
+      "unit": "H34",
+      "stage": "高中",
+      "order": 34,
+      "title": "无衣",
+      "author": "《诗经·秦风》",
+      "category": "诗词曲",
+      "course": "诗词曲",
+      "source": "high"
+    },
+    {
+      "unit": "H35",
+      "stage": "高中",
+      "order": 35,
+      "title": "离骚",
+      "author": "屈原",
+      "category": "诗词曲",
+      "course": "诗词曲",
+      "source": "high"
+    },
+    {
+      "unit": "H36",
+      "stage": "高中",
+      "order": 36,
+      "title": "涉江采芙蓉",
+      "author": "《古诗十九首》",
+      "category": "诗词曲",
+      "course": "诗词曲",
+      "source": "high"
+    },
+    {
+      "unit": "H37",
+      "stage": "高中",
+      "order": 37,
+      "title": "短歌行",
+      "author": "曹操",
+      "category": "诗词曲",
+      "course": "诗词曲",
+      "source": "high"
+    },
+    {
+      "unit": "H38",
+      "stage": "高中",
+      "order": 38,
+      "title": "归园田居（其一）",
+      "author": "陶潜",
+      "category": "诗词曲",
+      "course": "诗词曲",
+      "source": "high"
+    },
+    {
+      "unit": "H39",
+      "stage": "高中",
+      "order": 39,
+      "title": "拟行路难（其四）",
+      "author": "鲍照",
+      "category": "诗词曲",
+      "course": "诗词曲",
+      "source": "high"
+    },
+    {
+      "unit": "H40",
+      "stage": "高中",
+      "order": 40,
+      "title": "春江花月夜",
+      "author": "张若虚",
+      "category": "诗词曲",
+      "course": "诗词曲",
+      "source": "high"
+    },
+    {
+      "unit": "H41",
+      "stage": "高中",
+      "order": 41,
+      "title": "山居秋暝",
+      "author": "王维",
+      "category": "诗词曲",
+      "course": "诗词曲",
+      "source": "high"
+    },
+    {
+      "unit": "H42",
+      "stage": "高中",
+      "order": 42,
+      "title": "蜀道难",
+      "author": "李白",
+      "category": "诗词曲",
+      "course": "诗词曲",
+      "source": "high"
+    },
+    {
+      "unit": "H43",
+      "stage": "高中",
+      "order": 43,
+      "title": "梦游天姥吟留别",
+      "author": "李白",
+      "category": "诗词曲",
+      "course": "诗词曲",
+      "source": "high"
+    },
+    {
+      "unit": "H44",
+      "stage": "高中",
+      "order": 44,
+      "title": "将进酒",
+      "author": "李白",
+      "category": "诗词曲",
+      "course": "诗词曲",
+      "source": "high"
+    },
+    {
+      "unit": "H45",
+      "stage": "高中",
+      "order": 45,
+      "title": "燕歌行",
+      "author": "高适",
+      "category": "诗词曲",
+      "course": "诗词曲",
+      "source": "high"
+    },
+    {
+      "unit": "H46",
+      "stage": "高中",
+      "order": 46,
+      "title": "蜀相",
+      "author": "杜甫",
+      "category": "诗词曲",
+      "course": "诗词曲",
+      "source": "high"
+    },
+    {
+      "unit": "H47",
+      "stage": "高中",
+      "order": 47,
+      "title": "客至",
+      "author": "杜甫",
+      "category": "诗词曲",
+      "course": "诗词曲",
+      "source": "high"
+    },
+    {
+      "unit": "H48",
+      "stage": "高中",
+      "order": 48,
+      "title": "登高",
+      "author": "杜甫",
+      "category": "诗词曲",
+      "course": "诗词曲",
+      "source": "high"
+    },
+    {
+      "unit": "H49",
+      "stage": "高中",
+      "order": 49,
+      "title": "登岳阳楼",
+      "author": "杜甫",
+      "category": "诗词曲",
+      "course": "诗词曲",
+      "source": "high"
+    },
+    {
+      "unit": "H50",
+      "stage": "高中",
+      "order": 50,
+      "title": "琵琶行",
+      "author": "白居易",
+      "category": "诗词曲",
+      "course": "诗词曲",
+      "source": "high"
+    },
+    {
+      "unit": "H51",
+      "stage": "高中",
+      "order": 51,
+      "title": "李凭箜篌引",
+      "author": "李贺",
+      "category": "诗词曲",
+      "course": "诗词曲",
+      "source": "high"
+    },
+    {
+      "unit": "H52",
+      "stage": "高中",
+      "order": 52,
+      "title": "菩萨蛮（小山重叠金明灭）",
+      "author": "温庭筠",
+      "category": "诗词曲",
+      "course": "诗词曲",
+      "source": "high"
+    },
+    {
+      "unit": "H53",
+      "stage": "高中",
+      "order": 53,
+      "title": "锦瑟",
+      "author": "李商隐",
+      "category": "诗词曲",
+      "course": "诗词曲",
+      "source": "high"
+    },
+    {
+      "unit": "H54",
+      "stage": "高中",
+      "order": 54,
+      "title": "虞美人（春花秋月何时了）",
+      "author": "李煜",
+      "category": "诗词曲",
+      "course": "诗词曲",
+      "source": "high"
+    },
+    {
+      "unit": "H55",
+      "stage": "高中",
+      "order": 55,
+      "title": "望海潮（东南形胜）",
+      "author": "柳永",
+      "category": "诗词曲",
+      "course": "诗词曲",
+      "source": "high"
+    },
+    {
+      "unit": "H56",
+      "stage": "高中",
+      "order": 56,
+      "title": "桂枝香·金陵怀古",
+      "author": "王安石",
+      "category": "诗词曲",
+      "course": "诗词曲",
+      "source": "high"
+    },
+    {
+      "unit": "H57",
+      "stage": "高中",
+      "order": 57,
+      "title": "江城子·乙卯正月二十日夜记梦",
+      "author": "苏轼",
+      "category": "诗词曲",
+      "course": "诗词曲",
+      "source": "high"
+    },
+    {
+      "unit": "H58",
+      "stage": "高中",
+      "order": 58,
+      "title": "念奴娇·赤壁怀古",
+      "author": "苏轼",
+      "category": "诗词曲",
+      "course": "诗词曲",
+      "source": "high"
+    },
+    {
+      "unit": "H59",
+      "stage": "高中",
+      "order": 59,
+      "title": "登快阁",
+      "author": "黄庭坚",
+      "category": "诗词曲",
+      "course": "诗词曲",
+      "source": "high"
+    },
+    {
+      "unit": "H60",
+      "stage": "高中",
+      "order": 60,
+      "title": "鹊桥仙（纤云弄巧）",
+      "author": "秦观",
+      "category": "诗词曲",
+      "course": "诗词曲",
+      "source": "high"
+    },
+    {
+      "unit": "H61",
+      "stage": "高中",
+      "order": 61,
+      "title": "苏幕遮（燎沉香）",
+      "author": "周邦彦",
+      "category": "诗词曲",
+      "course": "诗词曲",
+      "source": "high"
+    },
+    {
+      "unit": "H62",
+      "stage": "高中",
+      "order": 62,
+      "title": "声声慢（寻寻觅觅）",
+      "author": "李清照",
+      "category": "诗词曲",
+      "course": "诗词曲",
+      "source": "high"
+    },
+    {
+      "unit": "H63",
+      "stage": "高中",
+      "order": 63,
+      "title": "书愤（早岁那知世事艰）",
+      "author": "陆游",
+      "category": "诗词曲",
+      "course": "诗词曲",
+      "source": "high"
+    },
+    {
+      "unit": "H64",
+      "stage": "高中",
+      "order": 64,
+      "title": "临安春雨初霁",
+      "author": "陆游",
+      "category": "诗词曲",
+      "course": "诗词曲",
+      "source": "high"
+    },
+    {
+      "unit": "H65",
+      "stage": "高中",
+      "order": 65,
+      "title": "念奴娇·过洞庭",
+      "author": "张孝祥",
+      "category": "诗词曲",
+      "course": "诗词曲",
+      "source": "high"
+    },
+    {
+      "unit": "H66",
+      "stage": "高中",
+      "order": 66,
+      "title": "永遇乐·京口北固亭怀古",
+      "author": "辛弃疾",
+      "category": "诗词曲",
+      "course": "诗词曲",
+      "source": "high"
+    },
+    {
+      "unit": "H67",
+      "stage": "高中",
+      "order": 67,
+      "title": "菩萨蛮·书江西造口壁",
+      "author": "辛弃疾",
+      "category": "诗词曲",
+      "course": "诗词曲",
+      "source": "high"
+    },
+    {
+      "unit": "H68",
+      "stage": "高中",
+      "order": 68,
+      "title": "青玉案·元夕",
+      "author": "辛弃疾",
+      "category": "诗词曲",
+      "course": "诗词曲",
+      "source": "high"
+    },
+    {
+      "unit": "H69",
+      "stage": "高中",
+      "order": 69,
+      "title": "扬州慢（淮左名都）",
+      "author": "姜夔",
+      "category": "诗词曲",
+      "course": "诗词曲",
+      "source": "high"
+    },
+    {
+      "unit": "H70",
+      "stage": "高中",
+      "order": 70,
+      "title": "贺新郎（国脉微如缕）",
+      "author": "刘克庄",
+      "category": "诗词曲",
+      "course": "诗词曲",
+      "source": "high"
+    },
+    {
+      "unit": "H71",
+      "stage": "高中",
+      "order": 71,
+      "title": "长亭送别（【正宫】【端正好】）",
+      "author": "王实甫",
+      "category": "诗词曲",
+      "course": "诗词曲",
+      "source": "high"
+    },
+    {
+      "unit": "H72",
+      "stage": "高中",
+      "order": 72,
+      "title": "朝天子·咏喇叭",
+      "author": "王磐",
+      "category": "诗词曲",
+      "course": "诗词曲",
+      "source": "high"
+    }
+  ]
+}

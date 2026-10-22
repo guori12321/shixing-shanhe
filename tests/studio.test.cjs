@@ -8,7 +8,7 @@ const context={crypto:webcrypto,URLSearchParams,localStorage:{getItem:()=>null,s
 vm.createContext(context);
 const load=file=>fs.readFileSync(path.join(root,'dist',file),'utf8');
 const studio=load('studio.js').split("$('close').onclick=")[0];
-vm.runInContext(load('curriculum.js')+load('poetry-data.js')+load('library.js')+studio+`
+vm.runInContext(load('curriculum.js')+load('poetry-data.js')+load('catalog-data.js')+load('reading-works.js')+load('library.js')+studio+`
 activeStudioTab=()=>{};refreshCredits=()=>{};studioMessage=()=>{};
 this.api={normalize:normalizeStudioRecord,importData:importStudioData,state:()=>studioState,escape:escapeHtml};`,context);
 const api=context.api;

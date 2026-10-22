@@ -6,14 +6,21 @@ A Chinese-language teaching demo for junior and senior high school students and 
 
 ![Travel map and the poem at the selected stop](docs/screenshots/map.png)
 
+## Curriculum library update
+
+The library now contains **215 classical readings**, including every entry in the 2025 revised curriculum recitation appendices: **60 junior-secondary entries and 72 senior-secondary entries**. Composite selections count as one curriculum entry. Additional textbook and older-edition works are labeled separately. Li Bai (13), Du Fu (12), and Su Shi (12) retain prominent featured cards and the original map routes. Other readings do not receive invented dates or locations.
+
+Filter by stage, author, genre, curriculum course, source, or full text. All readings link to the interactive creation demo. Recitation appendices do not define every possible regional exam or unseen reading question. See the [coverage manifest, sources, and corrections](docs/CURRICULUM_COVERAGE.md). Dataset arrangement follows [CC BY-SA 4.0](dist/assets/catalog/LICENSE-CC-BY-SA-4.0.txt), with [attribution](dist/assets/catalog/attribution.json).
+
 ## Features
 
 - **Travel map:** ready-made OpenFreeMap Bright cartography and real Mapterhorn elevation rendered in MapLibre, with rotation, tilt, a flat view, route overview, and close-up terrain at each stop. Route arrows, sequence numbers, and existing work dates show the order of selected stops; click an arrow or year to read the destination work. Approximate dates remain approximate. Modern roads, buildings, and unrelated place labels are hidden to emphasize the poet’s route and relevant literary landmarks. Explore by poet, location, and timeline. Each stop includes the full text, background, reading prompts, and classroom questions. Documented travel, locations mentioned in poems, and uncertain locations are distinguished.
-- **Poetry library:** a dedicated page with 37 works—13 by Li Bai, 12 by Du Fu, and 12 by Su Shi. Filter by author, school stage, source category, or keyword; read full texts, hide them for memorization, and return to the corresponding map stop.
+- **Poetry library:** a dedicated page with 215 readings. Featured sections highlight Li Bai (13), Du Fu (12), and Su Shi (12). Filter by author, stage, genre, course, source, or full text; hide texts for memorization. The three featured poets retain map-stop links; other authors use the reading library.
+- **Historical frontier context:** an optional, normally hidden layer uses sparse purple dashed schematic lines for three dated regional frontier settings. Three frontier poems link to a separate reading context. These original teaching schematics are partial and approximate, not exact national borders; sources and limits are visible.
 - **Poetry cinema:** three narrated films of about one minute each. Relevant map stops show a film cover; playback starts on click. Includes synthesized Mandarin narration, original synthesized music, Chinese subtitles, scene navigation, fullscreen, and downloads.
 - **Rivers, lakes, and literary landmarks:** restyled public-domain Natural Earth geometry adds selected segments of 11 rivers, 3 lakes, and 10 landmark references. Toggle layers independently and open related works where available. Modern water geometry and regional landmark markers do not add travel stops. See the [map sources and selection notes](docs/MAP_SOURCES.md) (Chinese).
 - **Present-day photography:** Lushan waterfall, Yellow Crane Tower, Baidi City, Du Fu’s cottage, and West Lake, with attribution, dates, and source licenses.
-- **Poetry creation studio (interaction demo):** all 37 works can seed editable prompts for scene art, video storyboards, and poetry imitation. Includes resettable demo credits, evidence and imagination notes, local portfolios, JSON exchange, and local peer feedback. Uses built-in reference assets; no live model calls, paid usage, or online classroom publishing. See [studio notes](docs/CREATION_STUDIO.md) (Chinese).
+- **Poetry creation studio (interaction demo):** all 215 readings can seed editable prompts for scene art, video storyboards, and poetry imitation. Includes resettable demo credits, evidence and imagination notes, local portfolios, JSON exchange, and local peer feedback. Uses built-in reference assets; no live model calls, paid usage, or online classroom publishing. See [studio notes](docs/CREATION_STUDIO.md) (Chinese).
 - **Consistent navigation:** map, library, cinema, creation studio, teaching tips, and project information. The homepage focuses on the map and the selected poem.
 
 The application UI and teaching content are in Chinese; this README provides an English project guide.
@@ -91,7 +98,7 @@ When editing a work or location, retain its location type and uncertainty notes.
 
 ## Educational scope and historical limits
 
-The project checks only these three authors against the 2025 revised curriculum appendices: **8 junior-school works and 11 senior-school works**, all included. This does **not** cover every author, regional examination, or unseen poetry analysis passage. Teachers should consult their local exam year, textbook edition, and authoritative annotations. See the [curriculum audit](CURRICULUM_AUDIT.md).
+The full reading library covers all 60 junior and 72 senior classical-recitation entries in the 2025 revised curriculum appendices. The three featured poets account for 8 junior and 11 senior entries. Additional textbook selections remain separately labeled. Regional exam requirements and unseen reading materials vary; teachers should consult their local requirements. See the [full coverage audit](docs/CURRICULUM_COVERAGE.md).
 
 The map uses OpenFreeMap cartography and Mapterhorn DEM elevation, rendered with MapLibre GL JS 5.15.0 at 1.5× terrain exaggeration. It is not a surveying tool. Map tiles, elevation, and fonts require Internet access, without an API key. Availability depends on external public services; mainland China classroom connectivity has not been verified. Coordinates and map content are modern. Route lines indicate the order of selected travel stops, not historical roads or Tang/Song boundaries. Dates and locations can be disputed. Huangzhou Red Cliff is distinct from the commonly identified battlefield; the Zhou Yu sequence illustrates the poem’s historical imagination.
 

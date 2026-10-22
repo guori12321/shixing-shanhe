@@ -1,0 +1,44 @@
+{
+  "license": "CC BY-SA 4.0 (curated dataset arrangement; ancient originals are public domain)",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "contributors": [
+    "汤圆 / tangyuan0821",
+    "Clover Yan / clover-tree",
+    "诗行山河：目录对照、选段与校正",
+    "hantang/yuwen（仅古典原文，不含教材注释与学习提示）",
+    "维基文库贡献者（孔雀东南飞通行古籍文本）"
+  ],
+  "sources": [
+    "https://github.com/tangyuan0821/Junior-Middle-School-poetry/blob/master/poetry.json",
+    "https://github.com/clover-tree/gaokao-poetry/blob/master/poetry.json",
+    "https://www.hnwu.edu.cn/ewebeditor/uploadfile/20231006195220323.pdf",
+    "https://chinese.bdfzer.com/xbz000/第三单元/10-苏武传-班固",
+    "https://ctext.org/book-of-poetry/mang/zhs",
+    "https://ctext.org/dao-de-jing/zhs",
+    "https://ctext.org/liji/da-xue/zhs",
+    "https://ctext.org/text.pl?if=gb&node=1634&show=parallel",
+    "https://github.com/hantang/yuwen/blob/docs/10a-%E9%AB%98%E4%B8%AD%E5%BF%85%E4%BF%AE%E4%B8%8A%E5%86%8C/text/%E7%AC%AC%E4%BA%8C%E5%8D%95%E5%85%83/6/%E6%8F%92%E7%A7%A7%E6%AD%8C.md",
+    "https://github.com/hantang/yuwen/blob/docs/10a-%E9%AB%98%E4%B8%AD%E5%BF%85%E4%BF%AE%E4%B8%8A%E5%86%8C/text/%E7%AC%AC%E4%BA%8C%E5%8D%95%E5%85%83/6/%E8%8A%A3%E8%8B%A2.md",
+    "https://github.com/hantang/yuwen/blob/docs/10b-%E9%AB%98%E4%B8%AD%E5%BF%85%E4%BF%AE%E4%B8%8B%E5%86%8C/text/%E7%AC%AC%E4%B8%80%E5%8D%95%E5%85%83/%E7%83%9B%E4%B9%8B%E6%AD%A6%E9%80%80%E7%A7%A6%E5%B8%88.md",
+    "https://github.com/hantang/yuwen/blob/docs/10b-%E9%AB%98%E4%B8%AD%E5%BF%85%E4%BF%AE%E4%B8%8B%E5%86%8C/text/%E7%AC%AC%E4%B8%80%E5%8D%95%E5%85%83/%E9%B8%BF%E9%97%A8%E5%AE%B4.md",
+    "https://github.com/hantang/yuwen/blob/docs/10b-%E9%AB%98%E4%B8%AD%E5%BF%85%E4%BF%AE%E4%B8%8B%E5%86%8C/text/%E7%AC%AC%E4%B8%80%E5%8D%95%E5%85%83/1/%E5%BA%96%E4%B8%81%E8%A7%A3%E7%89%9B.md",
+    "https://github.com/hantang/yuwen/blob/docs/10b-%E9%AB%98%E4%B8%AD%E5%BF%85%E4%BF%AE%E4%B8%8B%E5%86%8C/text/%E7%AC%AC%E4%B8%80%E5%8D%95%E5%85%83/1/%E9%BD%90%E6%A1%93%E6%99%8B%E6%96%87%E4%B9%8B%E4%BA%8B.md",
+    "https://github.com/hantang/yuwen/blob/docs/10b-%E9%AB%98%E4%B8%AD%E5%BF%85%E4%BF%AE%E4%B8%8B%E5%86%8C/text/%E7%AC%AC%E4%BA%8C%E5%8D%95%E5%85%83/%E7%AA%A6%E5%A8%A5%E5%86%A4%EF%BC%88%E8%8A%82%E9%80%89%EF%BC%89.md",
+    "https://github.com/hantang/yuwen/blob/docs/10b-%E9%AB%98%E4%B8%AD%E5%BF%85%E4%BF%AE%E4%B8%8B%E5%86%8C/text/%E7%AC%AC%E5%85%AD%E5%8D%95%E5%85%83/14/%E4%BF%83%E7%BB%87.md",
+    "https://zh.wikisource.org/zh-hans/古詩為焦仲卿妻作"
+  ],
+  "inputSha256": {
+    "junior.json": "6870f62aa7e5a871d7f09c0e33291ab8bf02de5b3c8aedf6db6d186d04e45079",
+    "high.json": "a058526e298bd11e798c0f858626be7deeac0abc1752e9d43fa51940b6b8753b",
+    "high-reference.txt": "01c13f3ca589acfc2c17e69651c18682e736fff0faf1738a053cb6a01e48a04a"
+  },
+  "corrections": [
+    "2025初中孟子三则使用鱼我所欲也、得道多助、生于忧患三段",
+    "伯牙选用吕氏春秋的伯牙鼓琴，非列子旧选段",
+    "琵琶行与归去来兮辞补齐课标要求的序文",
+    "高中老子第15章补足通行本文；删除手稿现代注释",
+    "上枢密韩太尉书删除参考汇编重复段落",
+    "古代文论选段按课标一条、内部六则整理",
+    "摐金字形及题画、人间词话明显录入错误校正"
+  ]
+}

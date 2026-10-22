@@ -57,3 +57,18 @@ Natural Earth **1:1000万物理矢量数据**（10m 指1:10 million比例尺，�
 - `scripts/prepare_water_data.py`：按上游标识筛选河湖，不生成地形。
 
 再生成河湖：下载上游 `ne_10m_rivers_lake_centerlines.geojson`、`ne_10m_lakes.geojson`，保存为 `rivers.geojson`、`lakes.geojson`，运行 `python3 scripts/prepare_water_data.py /path/to/files`。地图引擎升级时同步更新 JS/CSS、许可与本文版本号。
+
+
+## 历史边疆背景（2026-10-22）
+
+新增默认关闭的“历史边疆”层：唐代河西—陇右（约730—750年代）、北宋环庆—鄜延（约1040—1044）、北宋白沟河段（约1005—1120）。只用淡紫虚线与少量区域标签，不填色。书架中的《使至塞上》《白雪歌送武判官归京》《渔家傲·秋思》可打开独立背景阅读；不为这些作者增加行迹。切回三位主角即恢复原地图。
+
+**这是本站原创的概念示意线，不是复用、数字化或新测绘的精确国界数据。** 依据研究中描述的祁连山—赤岭、环庆—鄜延、白沟—霸州等区域关系概括绘制；每个配置保留年代、来源、读图边界，详见 dist/frontiers.js 与页面“依据与范围”。只画局部边防关系，不闭合成政权版图，不对未考定区段连线。坐标仅供区域尺度教学，不能作为历史控制区的测量证据。
+
+来源：
+
+- [唐蕃战争与高原地理，中国藏学研究中心](https://www.tibetology.ac.cn/2020-09/21/content_41698588.htm)；[唐代疆域考证，中央研究院史语所](https://www1.ihp.sinica.edu.tw/jp/Publications/Bulletin/971/Article/801)。
+- [范仲淹〈渔家傲〉系年与地望考证，四川大学](https://lj.scu.edu.cn/info/1074/6661.htm)；[庆阳地方志](https://www.gsdfszw.org.cn/gsxz/qys_275/qyxz/201708/P020170814648732627052.pdf)。创作地有延州、庆州等不同考证，故不钉死“孤城”。
+- [宋辽白沟沿线，河北省文旅厅](https://whly.hebei.gov.cn/c/2023-10-26/574329.html)；[宋辽疆界研究述评，中国人民大学](https://iqh.ruc.edu.cn/old/zglsdlyj/lsdl_xsdt/ztsp/51893571673c4c919c415d792bc5bbc8.htm)。
+
+考察了现成数据：北京大学地理数据平台的741年图限制复制传播，未复制其图像或线形；historical-basemaps 只有百年切片，700年索引仍列Sui Empire等问题，不能直接匹配盛唐作品；另一GitHub中国历代疆域演示缺少明确数据许可，未采用。正式教学需要精确疆域时，应使用有授权且经历史地理复核的逐期图，不应把本站概念线称为“当年完整国境”。
