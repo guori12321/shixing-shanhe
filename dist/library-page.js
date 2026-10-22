@@ -1,5 +1,5 @@
 const $=id=>document.getElementById(id);
-function showModal(html){$('modalBody').innerHTML=html;$('modal').showModal();}
+function showModal(html){$('modalBody').innerHTML=html;$('modal').showModal();$('modal').scrollTop=0;}
 function openWork(id){location.href='index.html?work='+encodeURIComponent(id);}
 $('close').onclick=()=>$('modal').close();
 $('modal').onclick=e=>{if(e.target===$('modal'))$('modal').close();};

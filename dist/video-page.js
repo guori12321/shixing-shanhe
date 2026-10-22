@@ -1,6 +1,6 @@
 const $=id=>document.getElementById(id);
 function stop(){}
-function showModal(html){const old=$('poetryPlayer');if(old)old.pause();$('modalBody').innerHTML=html;$('modal').showModal();}
+function showModal(html){const old=$('poetryPlayer');if(old)old.pause();$('modalBody').innerHTML=html;$('modal').showModal();$('modal').scrollTop=0;}
 function readWork(id){location.href='index.html?work='+encodeURIComponent(id);}
 $('close').onclick=()=>$('modal').close();
 $('modal').onclick=e=>{if(e.target===$('modal'))$('modal').close();};

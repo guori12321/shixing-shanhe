@@ -36,6 +36,12 @@ The application UI and teaching content are in Chinese; this README provides an 
 | 春望 · Spring View | Du Fu | 62 s | Chang’an in spring, war, letters from home |
 | 念奴娇·赤壁怀古 · Remembering the Past at Red Cliff | Su Shi | 66 s | River, waves, imagined Zhou Yu, moonlight |
 
+## Source-attributed classroom activities
+
+The teaching-tips dialog includes six activities, filtered by school stage, with guiding questions, step-by-step tasks, student outputs, checklists, and downloadable student worksheets. Methods are paraphrased from public school and university teaching reports and an education resource platform; source methods and this project’s adaptations are labeled separately. Relevant map stops and reading dialogs link to the activities. See the [teaching source and adaptation notes](docs/TEACHING_SOURCES.md) (Chinese).
+
+![Source-attributed classroom activities](docs/screenshots/teaching.png)
+
 ## Run locally
 
 The website uses plain HTML, CSS, and JavaScript. There is no build step, database, or runtime API key. Use Python 3 or another static HTTP server.
@@ -71,6 +77,7 @@ dist/                    Deployable static website
   app.js                 Timeline and stop details
   library.js             Filters, reading, and curriculum notes
   cinema.js              Film catalog and playback
+  teaching.js            Sources and six adapted classroom activities
   assets/                Map, photographs, films, posters, subtitles
 docs/screenshots/        README screenshots
 media-production/       Production scripts, storyboards, prompts, timings
