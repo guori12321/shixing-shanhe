@@ -13,7 +13,8 @@ A Chinese-language teaching demo for junior and senior high school students and 
 - **Poetry cinema:** three narrated films of about one minute each. Relevant map stops show a film cover; playback starts on click. Includes synthesized Mandarin narration, original synthesized music, Chinese subtitles, scene navigation, fullscreen, and downloads.
 - **Rivers, lakes, and literary landmarks:** restyled public-domain Natural Earth geometry adds selected segments of 11 rivers, 3 lakes, and 10 landmark references. Toggle layers independently and open related works where available. Modern water geometry and regional landmark markers do not add travel stops. See the [map sources and selection notes](docs/MAP_SOURCES.md) (Chinese).
 - **Present-day photography:** Lushan waterfall, Yellow Crane Tower, Baidi City, Du Fu’s cottage, and West Lake, with attribution, dates, and source licenses.
-- **Consistent navigation:** map, library, cinema, teaching tips, and project information. The homepage focuses on the map and the selected poem.
+- **Poetry creation studio (interaction demo):** all 37 works can seed editable prompts for scene art, video storyboards, and poetry imitation. Includes resettable demo credits, evidence and imagination notes, local portfolios, JSON exchange, and local peer feedback. Uses built-in reference assets; no live model calls, paid usage, or online classroom publishing. See [studio notes](docs/CREATION_STUDIO.md) (Chinese).
+- **Consistent navigation:** map, library, cinema, creation studio, teaching tips, and project information. The homepage focuses on the map and the selected poem.
 
 The application UI and teaching content are in Chinese; this README provides an English project guide.
 
@@ -103,3 +104,9 @@ The map uses OpenFreeMap cartography and Mapterhorn DEM elevation, rendered with
 - The exploration concept was inspired by [DeanChensj/jiangshan-map](https://github.com/DeanChensj/jiangshan-map). This project’s interface and implementation were written independently.
 
 No single open-source license has been assigned to all repository content. Public availability does not grant unrestricted relicensing; third-party assets retain their own terms.
+
+### Creation studio demo
+
+![Prompt editor and reference scene](docs/screenshots/studio.png)
+
+![Classroom examples and local portfolio exchange](docs/screenshots/studio-gallery.png)

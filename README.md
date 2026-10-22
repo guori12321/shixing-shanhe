@@ -13,7 +13,8 @@
 - **诗意影院**：独立页面收录三段约一分钟的朗诵影片。对应站点显示影片封面，点击后才播放；配中文合成朗诵、原创合成配乐、逐句字幕、场景跳转、全屏及下载。
 - **河湖与诗文地标**：复用 Natural Earth 公版矢量线形，加入11条河流的选取线段、3个湖泊与10处地标。图层可独立开关，部分要素可联动作品；现代概化河道与区域地标不计入诗人行迹。详见 [地图来源与选型](docs/MAP_SOURCES.md)。
 - **当代实景照片**：庐山瀑布、黄鹤楼、白帝城、杜甫草堂和西湖，附作者、日期与授权来源。
-- **统一导航**：地图、书架、影院、课堂锦囊、关于本页；首页聚焦地图与当前诗文。
+- **诗意创作坊（交互演示）**：37篇原诗联动，图片场景、视频分镜、仿写三种提示词练习；演示 Token 额度、文本依据与想象说明、作品卡保存、JSON交换和本机互评。使用内置素材，不调用AI、不扣费，不是在线班级投稿平台。详见 [创作坊说明](docs/CREATION_STUDIO.md)。
+- **统一导航**：地图、书架、影院、创作坊、课堂锦囊、关于本页；首页聚焦地图与当前诗文。
 
 ## 界面截图
 
@@ -56,6 +57,7 @@ python3 -m http.server 5173 --directory dist
 | 页面 | 本地地址 |
 | --- | --- |
 | 足迹地图 | http://localhost:5173/index.html |
+| 诗意创作坊 | http://localhost:5173/studio.html |
 | 篇目书架 | http://localhost:5173/library.html |
 | 诗意影院 | http://localhost:5173/videos.html |
 | 指定作品示例 | http://localhost:5173/index.html?work=lb-lushan |
@@ -69,7 +71,7 @@ dist/                    静态网站，可直接托管
   index.html             行迹地图首页
   library.html           独立篇目书架
   videos.html            独立影院
-  site-nav.js            三个页面共用的导航与说明弹窗
+  site-nav.js            四个页面共用的导航与说明弹窗
   poetry-data.js          基础作品、作者与行迹数据
   curriculum.js          补充作品及学习元数据
   map.js                 第三方三维地图、行迹连线与城市标记
@@ -101,3 +103,9 @@ CURRICULUM_AUDIT.md      课标核对记录与参考来源
 - 交互方式参考 [DeanChensj/jiangshan-map](https://github.com/DeanChensj/jiangshan-map)，本项目界面与实现独立编写。
 
 本仓库未为全部内容指定统一的开源许可证；公开可见不等同于无限制再许可。第三方素材按其各自条款使用。
+
+### 诗意创作坊演示
+
+![提示词、参考场景与阅读说明](docs/screenshots/studio.png)
+
+![课堂范例与作品交流](docs/screenshots/studio-gallery.png)
