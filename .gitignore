@@ -1,0 +1,8 @@
+media-production/work/
+__pycache__/
+*.pyc
+.DS_Store
+.openai/
+.env
+.env.*
+!.env.example

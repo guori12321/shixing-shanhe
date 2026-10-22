@@ -1,0 +1,563 @@
+[
+  {
+    "id": "lushan",
+    "poemId": "lb-lushan",
+    "title": "望庐山瀑布",
+    "author": "李白",
+    "era": "唐",
+    "duration": 60,
+    "voiceRate": 110,
+    "tagline": "从人间飞瀑，望见九天银河",
+    "location": "庐山 · 山水想象",
+    "opening": "走近庐山。晨光照着山峰，水雾中，升起一片紫烟。",
+    "ending": "飞瀑与银河，在想象中相逢。再看一眼，你心中的庐山。",
+    "lines": [
+      "日照香炉生紫烟，",
+      "遥看瀑布挂前川。",
+      "飞流直下三千尺，",
+      "疑是银河落九天。"
+    ],
+    "scenes": [
+      {
+        "start": 0,
+        "end": 24.829,
+        "panel": 0,
+        "label": "晨光 · 紫烟"
+      },
+      {
+        "start": 24.829,
+        "end": 35.687000000000005,
+        "panel": 1,
+        "label": "遥望 · 挂川"
+      },
+      {
+        "start": 35.687000000000005,
+        "end": 46.353,
+        "panel": 2,
+        "label": "飞瀑 · 千尺"
+      },
+      {
+        "start": 46.353,
+        "end": 60,
+        "panel": 3,
+        "label": "银河 · 九天"
+      }
+    ],
+    "music": "明亮五声音阶 · 轻拨弦与气息长音",
+    "discussion": "“三千尺”与“银河落九天”，怎样把眼前风景变成浪漫想象？",
+    "speech": [
+      {
+        "key": "title",
+        "text": "望庐山瀑布。唐，李白。",
+        "rate": 115,
+        "file": "work/lushan/neural/title.mp3",
+        "length": 3.936
+      },
+      {
+        "key": "opening",
+        "text": "走近庐山。晨光照着山峰，水雾中，升起一片紫烟。",
+        "rate": 120,
+        "file": "work/lushan/neural/opening.mp3",
+        "length": 6.0
+      },
+      {
+        "key": "line0",
+        "text": "日照香炉生紫烟，",
+        "rate": 110,
+        "file": "work/lushan/neural/line0.mp3",
+        "length": 2.808
+      },
+      {
+        "key": "line1",
+        "text": "遥看瀑布挂前川。",
+        "rate": 110,
+        "file": "work/lushan/neural/line1.mp3",
+        "length": 2.784
+      },
+      {
+        "key": "line2",
+        "text": "飞流直下三千尺，",
+        "rate": 110,
+        "file": "work/lushan/neural/line2.mp3",
+        "length": 2.928
+      },
+      {
+        "key": "line3",
+        "text": "疑是银河落九天。",
+        "rate": 110,
+        "file": "work/lushan/neural/line3.mp3",
+        "length": 2.808
+      },
+      {
+        "key": "ending",
+        "text": "飞瀑与银河，在想象中相逢。再看一眼，你心中的庐山。",
+        "rate": 120,
+        "file": "work/lushan/neural/ending.mp3",
+        "length": 6.456
+      }
+    ],
+    "cues": [
+      {
+        "start": 0.25,
+        "end": 4.186,
+        "text": "望庐山瀑布 · 李白",
+        "kind": "title"
+      },
+      {
+        "start": 4.907709750566894,
+        "end": 10.908,
+        "text": "走近庐山。晨光照着山峰，水雾中，升起一片紫烟。",
+        "kind": "opening"
+      },
+      {
+        "start": 15,
+        "end": 17.808,
+        "text": "日照香炉生紫烟，",
+        "kind": "poem",
+        "line": 0
+      },
+      {
+        "start": 25.479,
+        "end": 28.263,
+        "text": "遥看瀑布挂前川。",
+        "kind": "poem",
+        "line": 1
+      },
+      {
+        "start": 36.337,
+        "end": 39.265,
+        "text": "飞流直下三千尺，",
+        "kind": "poem",
+        "line": 2
+      },
+      {
+        "start": 47.003,
+        "end": 49.811,
+        "text": "疑是银河落九天。",
+        "kind": "poem",
+        "line": 3
+      },
+      {
+        "start": 50.821768707482995,
+        "end": 57.278,
+        "text": "飞瀑与银河，在想象中相逢。再看一眼，你心中的庐山。",
+        "kind": "ending"
+      }
+    ],
+    "audio": "work/lushan/mix.wav"
+  },
+  {
+    "id": "chunwang",
+    "poemId": "df-chunwang",
+    "title": "春望",
+    "author": "杜甫",
+    "era": "唐",
+    "duration": 62,
+    "voiceRate": 115,
+    "tagline": "一城春色，写不尽家国之思",
+    "location": "长安 · 757年春",
+    "opening": "长安的春天，又来了。山河依旧，城中却是深深的草木。",
+    "ending": "春花与鸟鸣，为什么让诗人落泪？再读一遍，听见他的牵挂。",
+    "lines": [
+      "国破山河在，",
+      "城春草木深。",
+      "感时花溅泪，",
+      "恨别鸟惊心。",
+      "烽火连三月，",
+      "家书抵万金。",
+      "白头搔更短，",
+      "浑欲不胜簪。"
+    ],
+    "scenes": [
+      {
+        "start": 0,
+        "end": 24.415000000000003,
+        "panel": 0,
+        "label": "山河 · 草木"
+      },
+      {
+        "start": 24.415000000000003,
+        "end": 34.358000000000004,
+        "panel": 1,
+        "label": "春花 · 鸟鸣"
+      },
+      {
+        "start": 34.358000000000004,
+        "end": 44.225,
+        "panel": 2,
+        "label": "烽火 · 家书"
+      },
+      {
+        "start": 44.225,
+        "end": 62,
+        "panel": 3,
+        "label": "白头 · 牵挂"
+      }
+    ],
+    "music": "低音五声旋律 · 稀疏拨弦与低缓长音",
+    "discussion": "同样是春天，花与鸟为什么会触发家国之悲？",
+    "speech": [
+      {
+        "key": "title",
+        "text": "春望。唐，杜甫。",
+        "rate": 120,
+        "file": "work/chunwang/neural/title.mp3",
+        "length": 3.6
+      },
+      {
+        "key": "opening",
+        "text": "长安的春天，又来了。山河依旧，城中却是深深的草木。",
+        "rate": 125,
+        "file": "work/chunwang/neural/opening.mp3",
+        "length": 6.432
+      },
+      {
+        "key": "line0",
+        "text": "国破山河在，",
+        "rate": 115,
+        "file": "work/chunwang/neural/line0.mp3",
+        "length": 2.352
+      },
+      {
+        "key": "line1",
+        "text": "城春草木深。",
+        "rate": 115,
+        "file": "work/chunwang/neural/line1.mp3",
+        "length": 2.496
+      },
+      {
+        "key": "line2",
+        "text": "感时花溅泪，",
+        "rate": 115,
+        "file": "work/chunwang/neural/line2.mp3",
+        "length": 2.28
+      },
+      {
+        "key": "line3",
+        "text": "恨别鸟惊心。",
+        "rate": 115,
+        "file": "work/chunwang/neural/line3.mp3",
+        "length": 2.304
+      },
+      {
+        "key": "line4",
+        "text": "烽火连三月，",
+        "rate": 115,
+        "file": "work/chunwang/neural/line4.mp3",
+        "length": 2.352
+      },
+      {
+        "key": "line5",
+        "text": "家书抵万金。",
+        "rate": 115,
+        "file": "work/chunwang/neural/line5.mp3",
+        "length": 2.424
+      },
+      {
+        "key": "line6",
+        "text": "白头搔更短，",
+        "rate": 115,
+        "file": "work/chunwang/neural/line6.mp3",
+        "length": 2.52
+      },
+      {
+        "key": "line7",
+        "text": "浑欲不胜簪。",
+        "rate": 115,
+        "file": "work/chunwang/neural/line7.mp3",
+        "length": 2.352
+      },
+      {
+        "key": "ending",
+        "text": "春花与鸟鸣，为什么让诗人落泪？再读一遍，听见他的牵挂。",
+        "rate": 125,
+        "file": "work/chunwang/neural/ending.mp3",
+        "length": 6.6
+      }
+    ],
+    "cues": [
+      {
+        "start": 0.25,
+        "end": 3.85,
+        "text": "春望 · 杜甫",
+        "kind": "title"
+      },
+      {
+        "start": 4.22108843537415,
+        "end": 10.653,
+        "text": "长安的春天，又来了。山河依旧，城中却是深深的草木。",
+        "kind": "opening"
+      },
+      {
+        "start": 15,
+        "end": 17.352,
+        "text": "国破山河在，",
+        "kind": "poem",
+        "line": 0
+      },
+      {
+        "start": 19.98,
+        "end": 22.476,
+        "text": "城春草木深。",
+        "kind": "poem",
+        "line": 1
+      },
+      {
+        "start": 25.065,
+        "end": 27.345,
+        "text": "感时花溅泪，",
+        "kind": "poem",
+        "line": 2
+      },
+      {
+        "start": 29.942,
+        "end": 32.246,
+        "text": "恨别鸟惊心。",
+        "kind": "poem",
+        "line": 3
+      },
+      {
+        "start": 35.008,
+        "end": 37.36,
+        "text": "烽火连三月，",
+        "kind": "poem",
+        "line": 4
+      },
+      {
+        "start": 39.952,
+        "end": 42.376,
+        "text": "家书抵万金。",
+        "kind": "poem",
+        "line": 5
+      },
+      {
+        "start": 44.875,
+        "end": 47.395,
+        "text": "白头搔更短，",
+        "kind": "poem",
+        "line": 6
+      },
+      {
+        "start": 49.764,
+        "end": 52.116,
+        "text": "浑欲不胜簪。",
+        "kind": "poem",
+        "line": 7
+      },
+      {
+        "start": 52.91637188208617,
+        "end": 59.516,
+        "text": "春花与鸟鸣，为什么让诗人落泪？再读一遍，听见他的牵挂。",
+        "kind": "ending"
+      }
+    ],
+    "audio": "work/chunwang/mix.wav"
+  },
+  {
+    "id": "chibi",
+    "poemId": "ss-nian",
+    "title": "念奴娇·赤壁怀古",
+    "author": "苏轼",
+    "era": "宋",
+    "duration": 66,
+    "voiceRate": 155,
+    "tagline": "一江风浪，与千古人物相逢",
+    "location": "黄州 · 怀古想象",
+    "opening": "站在黄州江边，让目光随大江远去。",
+    "ending": "从千古英雄，回到眼前江月。听，江水仍在向前。",
+    "lines": [
+      "大江东去，浪淘尽，千古风流人物。",
+      "故垒西边，人道是，三国周郎赤壁。",
+      "乱石穿空，惊涛拍岸，卷起千堆雪。",
+      "江山如画，一时多少豪杰。",
+      "遥想公瑾当年，小乔初嫁了，雄姿英发。",
+      "羽扇纶巾，谈笑间，樯橹灰飞烟灭。",
+      "故国神游，多情应笑我，早生华发。",
+      "人生如梦，一尊还酹江月。"
+    ],
+    "scenes": [
+      {
+        "start": 0,
+        "end": 22.416,
+        "panel": 0,
+        "label": "大江 · 千古"
+      },
+      {
+        "start": 22.416,
+        "end": 33.775,
+        "panel": 1,
+        "label": "乱石 · 惊涛"
+      },
+      {
+        "start": 33.775,
+        "end": 46.813,
+        "panel": 2,
+        "label": "历史想象 · 周瑜"
+      },
+      {
+        "start": 46.813,
+        "end": 66,
+        "panel": 3,
+        "label": "江月 · 回望"
+      }
+    ],
+    "music": "宽广五声旋律 · 拨弦与低鼓，收束于月夜长音",
+    "discussion": "词人怎样从周瑜的意气风发，写到自己的生命感受？",
+    "speech": [
+      {
+        "key": "title",
+        "text": "念奴娇·赤壁怀古。宋，苏轼。",
+        "rate": 160,
+        "file": "work/chibi/neural/title.mp3",
+        "length": 4.8
+      },
+      {
+        "key": "opening",
+        "text": "站在黄州江边，让目光随大江远去。",
+        "rate": 165,
+        "file": "work/chibi/neural/opening.mp3",
+        "length": 4.176
+      },
+      {
+        "key": "line0",
+        "text": "大江东去，浪淘尽，千古风流人物。",
+        "rate": 155,
+        "file": "work/chibi/neural/line0.mp3",
+        "length": 5.016
+      },
+      {
+        "key": "line1",
+        "text": "故垒西边，人道是，三国周郎赤壁。",
+        "rate": 155,
+        "file": "work/chibi/neural/line1.mp3",
+        "length": 4.608
+      },
+      {
+        "key": "line2",
+        "text": "乱石穿空，惊涛拍岸，卷起千堆雪。",
+        "rate": 155,
+        "file": "work/chibi/neural/line2.mp3",
+        "length": 5.04
+      },
+      {
+        "key": "line3",
+        "text": "江山如画，一时多少豪杰。",
+        "rate": 155,
+        "file": "work/chibi/neural/line3.mp3",
+        "length": 3.768
+      },
+      {
+        "key": "line4",
+        "text": "遥想公瑾当年，小乔初嫁了，雄姿英发。",
+        "rate": 155,
+        "file": "work/chibi/neural/line4.mp3",
+        "length": 5.352
+      },
+      {
+        "key": "line5",
+        "text": "羽扇纶巾，谈笑间，樯橹灰飞烟灭。",
+        "rate": 155,
+        "file": "work/chibi/neural/line5.mp3",
+        "length": 4.968
+      },
+      {
+        "key": "line6",
+        "text": "故国神游，多情应笑我，早生华发。",
+        "rate": 155,
+        "file": "work/chibi/neural/line6.mp3",
+        "length": 4.752
+      },
+      {
+        "key": "line7",
+        "text": "人生如梦，一尊还酹江月。",
+        "rate": 155,
+        "file": "work/chibi/neural/line7.mp3",
+        "length": 3.864
+      },
+      {
+        "key": "ending",
+        "text": "从千古英雄，回到眼前江月。听，江水仍在向前。",
+        "rate": 165,
+        "file": "work/chibi/neural/ending.mp3",
+        "length": 6.36
+      }
+    ],
+    "cues": [
+      {
+        "start": 0.25,
+        "end": 5.05,
+        "text": "念奴娇·赤壁怀古 · 苏轼",
+        "kind": "title"
+      },
+      {
+        "start": 5.41859410430839,
+        "end": 9.595,
+        "text": "站在黄州江边，让目光随大江远去。",
+        "kind": "opening"
+      },
+      {
+        "start": 11,
+        "end": 16.016,
+        "text": "大江东去，浪淘尽，千古风流人物。",
+        "kind": "poem",
+        "line": 0
+      },
+      {
+        "start": 17.036,
+        "end": 21.644,
+        "text": "故垒西边，人道是，三国周郎赤壁。",
+        "kind": "poem",
+        "line": 1
+      },
+      {
+        "start": 23.066,
+        "end": 28.106,
+        "text": "乱石穿空，惊涛拍岸，卷起千堆雪。",
+        "kind": "poem",
+        "line": 2
+      },
+      {
+        "start": 29.601,
+        "end": 33.369,
+        "text": "江山如画，一时多少豪杰。",
+        "kind": "poem",
+        "line": 3
+      },
+      {
+        "start": 34.425,
+        "end": 39.777,
+        "text": "遥想公瑾当年，小乔初嫁了，雄姿英发。",
+        "kind": "poem",
+        "line": 4
+      },
+      {
+        "start": 41.338,
+        "end": 46.306,
+        "text": "羽扇纶巾，谈笑间，樯橹灰飞烟灭。",
+        "kind": "poem",
+        "line": 5
+      },
+      {
+        "start": 47.463,
+        "end": 52.215,
+        "text": "故国神游，多情应笑我，早生华发。",
+        "kind": "poem",
+        "line": 6
+      },
+      {
+        "start": 53.611,
+        "end": 57.475,
+        "text": "人生如梦，一尊还酹江月。",
+        "kind": "poem",
+        "line": 7
+      },
+      {
+        "start": 57.91505668934241,
+        "end": 64.275,
+        "text": "从千古英雄，回到眼前江月。听，江水仍在向前。",
+        "kind": "ending"
+      }
+    ],
+    "audio": "work/chibi/mix.wav"
+  }
+]
