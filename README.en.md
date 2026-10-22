@@ -8,7 +8,7 @@ A Chinese-language teaching demo for junior and senior high school students and 
 
 ## Features
 
-- **Travel map:** explore by poet, location, and timeline. Each stop includes the full text, background, reading prompts, and classroom questions. Documented travel, locations mentioned in poems, and uncertain locations are distinguished.
+- **Travel map:** shaded artistic terrain, raised land edges, lifted travel arcs, and city pins, with a flat-map option. Explore by poet, location, and timeline. Each stop includes the full text, background, reading prompts, and classroom questions. Documented travel, locations mentioned in poems, and uncertain locations are distinguished.
 - **Poetry library:** a dedicated page with 37 works—13 by Li Bai, 12 by Du Fu, and 12 by Su Shi. Filter by author, school stage, source category, or keyword; read full texts, hide them for memorization, and return to the corresponding map stop.
 - **Poetry cinema:** three narrated films of about one minute each. Relevant map stops show a film cover; playback starts on click. Includes synthesized Mandarin narration, original synthesized music, Chinese subtitles, scene navigation, fullscreen, and downloads.
 - **Present-day photography:** Lushan waterfall, Yellow Crane Tower, Baidi City, Du Fu’s cottage, and West Lake, with attribution, dates, and source licenses.
@@ -67,7 +67,8 @@ dist/                    Deployable static website
   site-nav.js            Shared navigation and information dialogs
   poetry-data.js          Base works, poets, and travel data
   curriculum.js          Additional works and learning metadata
-  app.js                 Map, timeline, and stop details
+  map.js                 Relief layer, travel arcs, and city pins
+  app.js                 Timeline and stop details
   library.js             Filters, reading, and curriculum notes
   cinema.js              Film catalog and playback
   assets/                Map, photographs, films, posters, subtitles
@@ -82,7 +83,7 @@ When editing a work or location, retain its location type and uncertainty notes.
 
 The project checks only these three authors against the 2025 revised curriculum appendices: **8 junior-school works and 11 senior-school works**, all included. This does **not** cover every author, regional examination, or unseen poetry analysis passage. Teachers should consult their local exam year, textbook edition, and authoritative annotations. See the [curriculum audit](CURRICULUM_AUDIT.md).
 
-Coordinates and provincial outlines are modern. Route lines indicate the order of selected travel stops, not historical roads or Tang/Song boundaries. Dates and locations can be disputed. Huangzhou Red Cliff is distinct from the commonly identified battlefield; the Zhou Yu sequence illustrates the poem’s historical imagination.
+The relief shading is a procedural artistic illustration, not surveyed elevation or a real DEM. Coordinates and provincial outlines are modern. Route lines indicate the order of selected travel stops, not historical roads or Tang/Song boundaries. Dates and locations can be disputed. Huangzhou Red Cliff is distinct from the commonly identified battlefield; the Zhou Yu sequence illustrates the poem’s historical imagination.
 
 ## Sources and licensing
 
