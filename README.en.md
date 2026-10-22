@@ -129,3 +129,9 @@ No single open-source license has been assigned to all repository content. Publi
 The bookshelf defaults to a Shanghai pilot reference view: national recitation entries plus all 37 works in the three featured poet collections. Readers can include supplements or switch to the full national reference catalog. This is **not yet a verified Shanghai annual exam list**. Jiangsu, Zhejiang, Beijing and Guangdong are clearly marked as planned and disabled. The regional preference persists across all four pages. See [rollout and sources](docs/REGIONS.md).
 
 ![Regional selection and featured poets](docs/screenshots/regions.png)
+
+### Curated external resources
+
+A dedicated [resources page](https://shixing-shanhe.guori12321.chatgpt.site/resources.html) links to a place-based Tang poetry map, the Shilu China 3D project showcase, and a Li Bai journey video. Each includes attribution, classroom suggestions and its integration status. This release adds outbound links, not data or account integrations; place-based comparison and alias search remain candidates. See [research and decisions](docs/EXTERNAL_RESOURCES.md).
+
+![Curated resources and classroom activities](docs/screenshots/resources.png)

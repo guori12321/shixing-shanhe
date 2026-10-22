@@ -128,3 +128,9 @@ CURRICULUM_AUDIT.md      课标核对记录与参考来源
 篇目书架默认“上海 · 首发参考版”，突出全国课标背诵篇目并保留三位重点诗人的完整专题，可展开补充或切换全国参考。上海年度考试清单尚待逐项核对；江苏、浙江、北京、广东标注“待接入”并暂不可选。地区选择在四页间保持一致。[接入依据与进度](docs/REGIONS.md)。
 
 ![地区选择与三位重点诗人](docs/screenshots/regions.png)
+
+### 拓展资源
+
+新增独立[拓展资源页](https://shixing-shanhe.guori12321.chatgpt.site/resources.html)，精选地名地图、诗路中国3D地图项目与李白人生路线视频，附作者出处、课堂建议与接入状态。已提供原站链接，未做数据／账号接入；同地读诗、别称搜索等列为后续候选。[调研与取舍](docs/EXTERNAL_RESOURCES.md)。
+
+![拓展资源与课堂用法](docs/screenshots/resources.png)
