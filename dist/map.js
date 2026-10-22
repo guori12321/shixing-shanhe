@@ -3,6 +3,8 @@
 let mapStyle='relief',terrainMap=null,mapReady=false,lastMapSelection='',mapFaultTimer;
 const mapCollection=features=>({type:'FeatureCollection',features});
 const mapFeature=(geometry,properties)=>({type:'Feature',geometry,properties});
+// Cinnabar travel marks stand apart from green terrain, teal water and violet frontiers.
+const routePalette={travel:'#b32643',upcoming:'#a84456',label:'#7d1932',paper:'#fffdf8',imagined:'#345f86'};
 // Slightly curved schematic links separate outward and return journeys.
 function routeCoordinates(a,b){
  const dx=b[0]-a[0],dy=b[1]-a[1],control=[(a[0]+b[0])/2-dy*.14,(a[1]+b[1])/2+dx*.14];
@@ -11,7 +13,7 @@ function routeCoordinates(a,b){
 function addRouteArrow(){
  const canvas=document.createElement('canvas');canvas.width=48;canvas.height=36;
  const ctx=canvas.getContext('2d');ctx.beginPath();ctx.moveTo(8,7);ctx.lineTo(37,18);ctx.lineTo(8,29);ctx.lineTo(15,18);ctx.closePath();
- ctx.fillStyle='#9b5a28';ctx.strokeStyle='#fff9e7';ctx.lineWidth=3;ctx.lineJoin='round';ctx.fill();ctx.stroke();
+ ctx.fillStyle=routePalette.travel;ctx.strokeStyle=routePalette.paper;ctx.lineWidth=4;ctx.lineJoin='round';ctx.fill();ctx.stroke();
  terrainMap.addImage('travel-arrow',ctx.getImageData(0,0,48,36),{pixelRatio:2});
 }
 function terrainNotice(text){$('terrainStatus').textContent=text;$('terrainStatus').hidden=!text;}
@@ -49,7 +51,7 @@ function initMapView(){
   }
   terrainMap.addSource('elevation',{type:'raster-dem',url:'https://tiles.mapterhorn.com/tilejson.json',tileSize:512,encoding:'terrarium',maxzoom:12});
   const firstSymbol=terrainMap.getStyle().layers.find(l=>l.type==='symbol')?.id;
-  terrainMap.addLayer({id:'terrain-shade',type:'hillshade',source:'elevation',paint:{'hillshade-shadow-color':'#596c53','hillshade-highlight-color':'#f6f2dd','hillshade-exaggeration':.35}},firstSymbol);
+  terrainMap.addLayer({id:'terrain-shade',type:'hillshade',source:'elevation',paint:{'hillshade-shadow-color':'#68786f','hillshade-highlight-color':'#faf8ef','hillshade-exaggeration':.28}},firstSymbol);
   terrainMap.setTerrain(mapStyle==='relief'?{source:'elevation',exaggeration:1.5}:null);
   for(const id of ['poet-route','route-labels','poet-stops','teaching-water','water-labels','poem-landmarks','historical-frontier','frontier-labels'])terrainMap.addSource(id,{type:'geojson',data:mapCollection([])});
   terrainMap.addLayer({id:'water-lakes',type:'fill',source:'teaching-water',maxzoom:8,filter:['==',['geometry-type'],'Polygon'],paint:{'fill-color':'#80b5ba','fill-opacity':.45}});
@@ -58,17 +60,17 @@ function initMapView(){
   terrainMap.addLayer({id:'frontier-soft',type:'line',source:'historical-frontier',maxzoom:8,paint:{'line-color':'#877496','line-width':12,'line-opacity':.12,'line-blur':5}});
   terrainMap.addLayer({id:'frontier-line',type:'line',source:'historical-frontier',maxzoom:8,paint:{'line-color':'#80678f','line-width':1.8,'line-opacity':.8,'line-dasharray':[4,3]}});
   terrainMap.addLayer({id:'frontier-names',type:'symbol',source:'frontier-labels',maxzoom:8,layout:{'text-field':['get','name'],'text-font':['Noto Sans Regular'],'text-size':12,'text-allow-overlap':false},paint:{'text-color':'#725e80','text-halo-color':'#fffcef','text-halo-width':2}});
-  terrainMap.addLayer({id:'route-halo',type:'line',source:'poet-route',paint:{'line-color':'#fff9e7','line-width':6,'line-opacity':.9}});
-  terrainMap.addLayer({id:'route-future',type:'line',source:'poet-route',filter:['==',['get','done'],false],paint:{'line-color':'#ab7953','line-width':2.5,'line-dasharray':[2,2],'line-opacity':.7}});
-  terrainMap.addLayer({id:'route-done',type:'line',source:'poet-route',filter:['==',['get','done'],true],paint:{'line-color':'#a66535','line-width':3}});
+  terrainMap.addLayer({id:'route-halo',type:'line',source:'poet-route',layout:{'line-join':'round','line-cap':'round'},paint:{'line-color':routePalette.paper,'line-width':8,'line-opacity':.96}});
+  terrainMap.addLayer({id:'route-future',type:'line',source:'poet-route',filter:['==',['get','done'],false],layout:{'line-join':'round','line-cap':'round'},paint:{'line-color':routePalette.upcoming,'line-width':3.2,'line-dasharray':[2,2],'line-opacity':1}});
+  terrainMap.addLayer({id:'route-done',type:'line',source:'poet-route',filter:['==',['get','done'],true],layout:{'line-join':'round','line-cap':'round'},paint:{'line-color':routePalette.travel,'line-width':4.2}});
   addRouteArrow();
-  terrainMap.addLayer({id:'route-arrows',type:'symbol',source:'poet-route',layout:{'symbol-placement':'line-center','icon-image':'travel-arrow','icon-size':1.2,'icon-rotation-alignment':'map','icon-pitch-alignment':'viewport','icon-keep-upright':false,'icon-allow-overlap':true,'icon-ignore-placement':true},paint:{'icon-opacity':['case',['get','done'],1,.7]}});
-  terrainMap.addLayer({id:'route-years',type:'symbol',source:'route-labels',layout:{'text-field':['get','yearLabel'],'text-font':['Noto Sans Regular'],'text-size':11,'text-variable-anchor':['bottom','top','left','right'],'text-radial-offset':1.2,'text-rotation-alignment':'viewport','text-pitch-alignment':'viewport','text-allow-overlap':false,'text-padding':4},paint:{'text-color':['case',['get','done'],'#80471e','#987452'],'text-halo-color':'#fffcef','text-halo-width':2}});
+  terrainMap.addLayer({id:'route-arrows',type:'symbol',source:'poet-route',layout:{'symbol-placement':'line-center','icon-image':'travel-arrow','icon-size':1.35,'icon-rotation-alignment':'map','icon-pitch-alignment':'viewport','icon-keep-upright':false,'icon-allow-overlap':true,'icon-ignore-placement':true},paint:{'icon-opacity':1}});
+  terrainMap.addLayer({id:'route-years',type:'symbol',source:'route-labels',layout:{'text-field':['get','yearLabel'],'text-font':['Noto Sans Regular'],'text-size':12,'text-variable-anchor':['bottom','top','left','right'],'text-radial-offset':1.2,'text-rotation-alignment':'viewport','text-pitch-alignment':'viewport','text-allow-overlap':false,'text-padding':4},paint:{'text-color':routePalette.label,'text-halo-color':routePalette.paper,'text-halo-width':2.5}});
   terrainMap.addLayer({id:'landmark-points',type:'circle',source:'poem-landmarks',paint:{'circle-radius':5,'circle-color':'#f6f0d7','circle-stroke-color':'#6e8153','circle-stroke-width':2}});
   terrainMap.addLayer({id:'landmark-names',type:'symbol',source:'poem-landmarks',layout:{'text-field':['get','name'],'text-font':['Noto Sans Regular'],'text-size':11,'text-anchor':'top','text-offset':[0,1]},paint:{'text-color':'#5c704d','text-halo-color':'#fffef5','text-halo-width':2}});
-  terrainMap.addLayer({id:'stop-halo',type:'circle',source:'poet-stops',filter:['==',['get','current'],true],paint:{'circle-radius':17,'circle-color':'#c59956','circle-opacity':.25}});
-  terrainMap.addLayer({id:'stop-points',type:'circle',source:'poet-stops',paint:{'circle-radius':['case',['get','current'],8,5],'circle-color':['case',['get','imagined'],'#6d9890',['get','current'],'#ac6b38','#fff9e7'],'circle-stroke-color':'#9e7247','circle-stroke-width':2}});
-  terrainMap.addLayer({id:'stop-names',type:'symbol',source:'poet-stops',layout:{'text-field':['get','label'],'text-font':['Noto Sans Regular'],'text-size':['case',['get','current'],15,13],'text-anchor':'left','text-offset':[.9,0],'text-allow-overlap':false,'symbol-sort-key':['case',['get','current'],0,1]},paint:{'text-color':['case',['get','current'],'#82491e','#3c5745'],'text-halo-color':'#fffcef','text-halo-width':2}});
+  terrainMap.addLayer({id:'stop-halo',type:'circle',source:'poet-stops',filter:['==',['get','current'],true],paint:{'circle-radius':19,'circle-color':routePalette.travel,'circle-opacity':.17}});
+  terrainMap.addLayer({id:'stop-points',type:'circle',source:'poet-stops',paint:{'circle-radius':['case',['get','current'],9,5.5],'circle-color':['case',['get','current'],routePalette.travel,['get','imagined'],routePalette.imagined,routePalette.paper],'circle-stroke-color':['case',['get','current'],routePalette.paper,['get','imagined'],routePalette.paper,routePalette.travel],'circle-stroke-width':['case',['get','current'],3,2]}});
+  terrainMap.addLayer({id:'stop-names',type:'symbol',source:'poet-stops',layout:{'text-field':['get','label'],'text-font':['Noto Sans Regular'],'text-size':['case',['get','current'],15,13],'text-anchor':'left','text-offset':[.9,0],'text-allow-overlap':false,'symbol-sort-key':['case',['get','current'],0,1]},paint:{'text-color':['case',['get','current'],routePalette.label,['get','imagined'],routePalette.imagined,'#354951'],'text-halo-color':routePalette.paper,'text-halo-width':2.5}});
   const interactive=['route-years','route-arrows','stop-points','stop-names','landmark-points','landmark-names','water-rivers','water-lakes','water-names'];
   terrainMap.on('click',e=>{const features=terrainMap.queryRenderedFeatures([[e.point.x-5,e.point.y-5],[e.point.x+5,e.point.y+5]],{layers:interactive});const f=features.find(f=>f.source==='poet-stops')||features.find(f=>f.source==='poem-landmarks')||features[0];if(!f)return;if(f.source==='poet-stops'||f.source==='poet-route'||f.source==='route-labels')select(+f.properties.step);else showGeography(f.properties.topic);});
   terrainMap.on('mousemove',e=>{terrainMap.getCanvas().style.cursor=terrainMap.queryRenderedFeatures(e.point,{layers:interactive}).length?'pointer':'';});

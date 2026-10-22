@@ -135,3 +135,5 @@ The bookshelf defaults to a Shanghai pilot reference view: national recitation e
 A dedicated [resources page](https://shixing-shanhe.guori12321.chatgpt.site/resources.html) links to a place-based Tang poetry map, the Shilu China 3D project showcase, and a Li Bai journey video. Each includes attribution, classroom suggestions and its integration status. This release adds outbound links, not data or account integrations; place-based comparison and alias search remain candidates. See [research and decisions](docs/EXTERNAL_RESOURCES.md).
 
 ![Curated resources and classroom activities](docs/screenshots/resources.png)
+
+Travel routes use a deep red with a light casing to stand apart from terrain and teal waterways. Solid and dashed lines distinguish earlier and upcoming segments, with matching arrows, a prominent current stop and darker year labels.

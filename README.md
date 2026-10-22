@@ -134,3 +134,5 @@ CURRICULUM_AUDIT.md      课标核对记录与参考来源
 新增独立[拓展资源页](https://shixing-shanhe.guori12321.chatgpt.site/resources.html)，精选地名地图、诗路中国3D地图项目与李白人生路线视频，附作者出处、课堂建议与接入状态。已提供原站链接，未做数据／账号接入；同地读诗、别称搜索等列为后续候选。[调研与取舍](docs/EXTERNAL_RESOURCES.md)。
 
 ![拓展资源与课堂用法](docs/screenshots/resources.png)
+
+地图足迹使用朱红色与浅色描边，区分青绿色河湖和山川底图；已读／后续路线使用实线／虚线，当前站点、方向箭头与年份保持清晰的视觉层级。
