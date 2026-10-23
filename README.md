@@ -139,7 +139,9 @@ CURRICULUM_AUDIT.md      课标核对记录与参考来源
 
 ### 诗图小游戏
 
-创作坊新增[两个小游戏](https://shixing-shanhe.guori12321.chatgpt.site/studio.html#games)：给古诗配照片、给照片配古诗。支持手机图片、HTTPS图片直链、内置照片与AI场景示例；学生摘录诗句、说明配对理由，可下载含图片与来源的HTML作品卡。上传照片仅在浏览器处理，不消耗演示Token；作品墙只在本页会话中保留。[玩法与边界](docs/POETRY_GAMES.md)。
+创作坊新增[两个小游戏](https://shixing-shanhe.guori12321.chatgpt.site/studio.html#games)：给古诗配照片、给照片配古诗。支持手机图片、HTTPS图片直链、内置照片与AI场景示例；学生摘录诗句、说明配对理由，可下载含图片与来源的HTML作品卡。上传照片仅在浏览器处理，不消耗演示Token；完成作品自动存入“作品交流”，刷新后图片与点评仍在。可用JSON交流文件导出、导入（兼容原有v1文件），支持单张及全部导出，方便同学点评后再次分享。[玩法与边界](docs/POETRY_GAMES.md)。
 
 ![给古诗配照片](docs/screenshots/poetry-games.png)
 ![两种方向的图文作品卡](docs/screenshots/poetry-game-cards.png)
+
+![小游戏作品进入作品交流](docs/screenshots/shared-game-gallery.png)

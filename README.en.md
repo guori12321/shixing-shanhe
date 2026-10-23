@@ -140,7 +140,9 @@ Travel routes use a deep red with a light casing to stand apart from terrain and
 
 ### Poetry and photo games
 
-The studio now includes [two matching activities](https://shixing-shanhe.guori12321.chatgpt.site/studio.html#games): find a photo for a poem, or find a poem for a photo. Students can use phone images, HTTPS image links, built-in photos or an explicitly labeled AI scene, cite a line and explain their pairing. Downloadable HTML cards include the picture, reflection and image attribution. Uploads are processed in the browser, do not use demo credits, and remain in the current page session. See [game notes](docs/POETRY_GAMES.md).
+The studio now includes [two matching activities](https://shixing-shanhe.guori12321.chatgpt.site/studio.html#games): find a photo for a poem, or find a poem for a photo. Students can use phone images, HTTPS image links, built-in photos or an explicitly labeled AI scene, cite a line and explain their pairing. Downloadable HTML cards include the picture, reflection and image attribution. Images are processed in the browser without using demo credits. Completed pairings are saved in the shared works gallery with images and comments retained after refresh. Export/import JSON bundles (including legacy v1 files) to exchange individual or all works and peer feedback. See [game notes](docs/POETRY_GAMES.md).
 
 ![Find a picture for a poem](docs/screenshots/poetry-games.png)
 ![Pairing cards in both directions](docs/screenshots/poetry-game-cards.png)
+
+![Matching activities in the persistent gallery](docs/screenshots/shared-game-gallery.png)
